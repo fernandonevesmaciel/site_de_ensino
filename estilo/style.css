@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/* 🎨 Paleta de Cores */
+:root {
+    --azul-eletrico: #0057E7;
+    --azul-escuro: #0C1A2B;
+    --amarelo: #FFC107;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza-claro: #D9D9D9;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Geral */
+body {
+    background-color: var(--azul-eletrico);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Tipografia */
+h1, h2, h3, nav, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: var(--azul-escuro);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.empresa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nomeempresa {
+    color: var(--branco);
+    font-weight: bold;
+}
+
+.botao-menu {
+    background: none;
+    border: none;
+    color: var(--branco);
+    font-size: 1.5em;
+    z-index: 2;
+}
+
+.botao-menu.ativo{
+    position:absolute;
+    top: 8px;
+    right: 10px;
+}
+
+/* Menu lateral */
+.menu-lateral {
+    position: fixed;
+    right: -300px; /* Oculto inicialmente */
+    top: 0;
+    background-color: var(--azul-escuro);
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+    transition: right 0.3s ease;
+}
+
+.menu-lateral.ativo{
+    right:0px;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-lateral li a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu-lateral li a:hover{
+    background-color: var(--azul-eletrico);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-lateral li a i {
+    margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+#botao-vertutoriais {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Cards Section */
+section#link {
+    background-color: var(--azul-escuro);
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--branco);
+    max-width: 400px;
+    width: 100%;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.card a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.card .icone {
+    background-color: var(--amarelo);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.card .conteudo h2 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.card .conteudo p {
+    font-size: 0.9em;
+    color: var(--preto);
+}
+
+/* Footer */
+footer {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--amarelo);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.background{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0,5);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 4;
+}
+
+.background.ativo{
+    opacity: 1;
+    visibility: visible;
+}
