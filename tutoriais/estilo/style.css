@@ -365,6 +365,27 @@ footer {
     margin-top: 10px;
 }
 
+#textoTutorial{
+    text-align: justify;
+}
+
+#res table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+}
+
+#res th, #res td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#res th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
 @media screen and (min-width: 768px) {
     section#link {
     height: 519px;
