@@ -144,9 +144,11 @@ function carregar(){
 
         <br><br>
 
-        Comentario de cada parâmetro e o porque foi usado cada valor nele:<br>
-        P000 = conforme explicado na própria tabela esse parâmetro quando já programado, serve para proteger a alteração dos parâmetros só podendo ter acesso aos parâmetros quando digitado corretamente a senha.(essa senha pode ser alterada ou adicionada no parâmetro P200.)<br>
-        P204 = 
+        <p id="textoTutorial">
+            Comentario de cada parâmetro e o porque foi usado cada valor nele:<br>
+            P000 = conforme explicado na própria tabela esse parâmetro quando já programado, serve para proteger a alteração dos parâmetros só podendo ter acesso aos parâmetros quando digitado corretamente a senha.(essa senha pode ser alterada ou adicionada no parâmetro P200.)<br>
+            P204 =
+        </p>
 
 
             </p>
