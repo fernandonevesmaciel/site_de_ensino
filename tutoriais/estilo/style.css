@@ -290,79 +290,85 @@ footer {
 }
 
 .container {
-            width: 100%;
-            max-width: 768px; /* Largura máxima para o conteúdo principal */
-            background-color: #ffffff; /* Fundo branco para o container */
-            border-radius: 12px; /* Cantos arredondados */
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
-            padding: 24px;
-        }
-        .linha {
-            display: flex;
-            align-items: center;
-            justify-content: space-between; /* Espaça o título e o botão */
-            padding: 16px;
-            border-bottom: 1px solid #e2e8f0; /* Linha divisória */
-            cursor: pointer; /* Indica que é clicável */
-            transition: background-color 0.3s ease; /* Transição suave para o hover */
-            border-radius: 8px; /* Cantos arredondados para cada linha */
-            margin-bottom: 8px; /* Espaçamento entre as linhas */
-            flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas pequenas */
-        }
-        .linha:last-child {
-            border-bottom: none; /* Remove a borda da última linha */
-        }
-        .linha:hover {
-            background-color: #f7fafc; /* Cor de fundo ao passar o mouse */
-        }
-        .titulo {
-            font-weight: 600; /* Texto do título mais forte */
-            color: #2d3748; /* Cor do texto do título */
-            flex-grow: 1; /* Permite que o título ocupe o espaço disponível */
-            margin-right: 16px; /* Espaçamento entre o título e o botão */
-        }
-        .botao-toggle {
-            background-color: #4299e1; /* Azul vibrante para o botão */
-            color: white;
-            border: none;
-            border-radius: 9999px; /* Botão completamente redondo */
-            width: 32px;
-            height: 32px;
-            font-size: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.2s ease; /* Transição para hover e clique */
-            flex-shrink: 0; /* Impede que o botão encolha */
-        }
-        .botao-toggle:hover {
-            background-color: #3182ce; /* Azul mais escuro ao passar o mouse */
-            transform: scale(1.05); /* Pequeno aumento no tamanho */
-        }
-        .conteudo {
-            width: 100%; /* Ocupa toda a largura da linha */
-            padding: 16px 0 0 0; /* Padding superior para o conteúdo */
-            color: #4a5568; /* Cor do texto do conteúdo */
-            line-height: 1.6; /* Espaçamento entre linhas */
-            font-size: 0.95rem; /* Tamanho da fonte ligeiramente menor */
-        }
-
-    .botao-download{
-        margin: 20px;
-        padding: 20px;
-        background-color: var(--azul-eletrico);
-        color: var(--branco);
-        text-decoration: none;
-        border-radius: 20px;
+    width: 100%;
+    max-width: 768px; /* Largura máxima para o conteúdo principal */
+    background-color: #ffffff; /* Fundo branco para o container */
+    border-radius: 12px; /* Cantos arredondados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 24px;
+    }
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaça o título e o botão */
+    padding: 16px;
+    border-bottom: 1px solid #e2e8f0; /* Linha divisória */
+    cursor: pointer; /* Indica que é clicável */
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+    border-radius: 8px; /* Cantos arredondados para cada linha */
+    margin-bottom: 8px; /* Espaçamento entre as linhas */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas pequenas */
+    }
+.linha:last-child {
+    border-bottom: none; /* Remove a borda da última linha */
+    }
+.linha:hover {
+    background-color: #f7fafc; /* Cor de fundo ao passar o mouse */
+    }
+.titulo {
+    font-weight: 600; /* Texto do título mais forte */
+    color: #2d3748; /* Cor do texto do título */
+    flex-grow: 1; /* Permite que o título ocupe o espaço disponível */
+    margin-right: 16px; /* Espaçamento entre o título e o botão */
+    }
+.botao-toggle {
+    background-color: #4299e1; /* Azul vibrante para o botão */
+    color: white;
+    border: none;
+    border-radius: 9999px; /* Botão completamente redondo */
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição para hover e clique */
+    flex-shrink: 0; /* Impede que o botão encolha */
+    }
+.botao-toggle:hover {
+    background-color: #3182ce; /* Azul mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Pequeno aumento no tamanho */
+    }
+    .conteudo {
+    width: 100%; /* Ocupa toda a largura da linha */
+    padding: 16px 0 0 0; /* Padding superior para o conteúdo */
+    color: #4a5568; /* Cor do texto do conteúdo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    font-size: 0.95rem; /* Tamanho da fonte ligeiramente menor */
     }
 
-    #res iframe {
-    border-radius: 5px;
-    width: 90%;
-    height: auto;
-    min-height: 400px;
-    margin-top: 10px;
+.botao-download{
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--azul-eletrico);
+    color: var(--branco);
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.botao-download:hover{
+    transform: scale(1.1);
+    background-color:#3182ce;
+}
+
+#res iframe {
+border-radius: 5px;
+width: 90%;
+height: auto;
+min-height: 400px;
+margin-top: 10px;
 }
 
 #textoTutorial{
@@ -385,6 +391,18 @@ footer {
 #res th {
     background-color: #f0f0f0;
     font-weight: bold;
+}
+
+.imagemProgramacao{
+      width: 260px;
+    height: 200px;
+}
+
+.botao-fechar{
+    padding: 10px;
+    background-color: var(--azul-eletrico);
+    color: var(--branco);
+    border-radius: 10px;
 }
 @media screen and (min-width: 768px) {
     section#link {
