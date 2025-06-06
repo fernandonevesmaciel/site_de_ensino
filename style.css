@@ -19,7 +19,7 @@
 
 /* Body Geral */
 body {
-    background-color: var(--azul-eletrico);
+    background-color: var(--azul-escuro);
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -237,6 +237,9 @@ footer {
     align-items: center;
 }
 
+.destaqueTitulo{
+    color: var(--amarelo);
+}
 
 
 
@@ -245,7 +248,7 @@ footer {
 @media screen and (min-width: 768px) {
     section#link {
     height: 519px;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 #opcoes{
     flex-flow: row wrap;

@@ -31,27 +31,8 @@ h1, h2, h3, nav, button, p {
     font-family: 'Montserrat', sans-serif;
 }
 
-#titulo{
-    font-family: 'Montserrant Bold';
-}
-
-.subTitulo{
-    text-align: justify;
-}
-
 p{
     color: var(--branco);
-}
-
-#contato{
-    padding: 10px;
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    background-color: var(--azul-escuro);
-    color: var(--branco);
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgb(224, 205, 205);
 }
 
 /* Header */
@@ -147,56 +128,7 @@ header {
     padding: 10px;
 }
 
-/* Cards Section */
-section#link {
-    background-color: var(--azul-escuro);
-    width: 100%;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-}
 
-.card {
-    background-color: var(--branco);
-    max-width: 400px;
-    width: 100%;
-    min-height: 150px;
-    border-radius: 20px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-}
-
-.card a {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    text-decoration: none;
-    color: var(--preto);
-}
-
-.card .icone {
-    background-color: var(--amarelo);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3em;
-}
-
-.card .conteudo h2 {
-    font-size: 1.1em;
-    margin-bottom: 5px;
-}
-
-.card .conteudo p {
-    font-size: 0.9em;
-    color: var(--preto);
-}
 
 /* Footer */
 footer {
@@ -244,59 +176,12 @@ footer {
     gap: 20px;
     align-items: center;
 }
-.opcoestutorial{
-    background-color: var(--branco);
-    width: 300px;
-    height: 460px;
+
+.cardPrincipal{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    padding: 22px;
-    border-radius: 10px;
-}
-.opcoestutorial h2{
-    font-size: 1.3em;
-    margin: 5px;
-    color: var(--preto);
-}
-.opcoestutorial li{
-    margin-left: 5px;
-    color: rgb(87, 85, 85);
-}
-
-.imagemTutorial{
-    width: 200px;
-    height: 150px;
-}
-
-.linktutorial{
-    text-decoration: none;
-}
-
-.explicacao{
-    display: flex;
-    background-color: var(--branco);
-    width: 90vw;
-    margin: 10px auto;
-    flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
-    color: var(--preto);
-    text-align: center;
-    padding: 5px;
-
 }
 
-.explicacao p{
-    color:var(--preto);
-    margin: 10px;
-}
-
-.imagemExplicacao{
-    width: 200px;
-    height: 200px;
-
-}
 
 .container {
     width: 100%;
@@ -349,7 +234,7 @@ footer {
     background-color: #3182ce; /* Azul mais escuro ao passar o mouse */
     transform: scale(1.05); /* Pequeno aumento no tamanho */
     }
-    .conteudo, .explicacao {
+.conteudo, .explicacao {
     width: 100%; /* Ocupa toda a largura da linha */
     padding: 16px 0 0 0; /* Padding superior para o conteúdo */
     color: #4a5568; /* Cor do texto do conteúdo */
@@ -357,57 +242,7 @@ footer {
     font-size: 0.95rem; /* Tamanho da fonte ligeiramente menor */
     }
 
-.botao-download{
-    margin: 20px;
-    padding: 20px;
-    background-color: var(--azul-eletrico);
-    color: var(--branco);
-    text-decoration: none;
-    border-radius: 20px;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-}
-.botao-download:hover{
-    transform: scale(1.1);
-    background-color:#3182ce;
-}
-
-#res iframe {
-border-radius: 5px;
-width: 90%;
-height: auto;
-min-height: 400px;
-margin-top: 10px;
-}
-
-.textoTutorial{
-    text-align: justify;
-}
-
-#res table {
-    margin: 30px auto;
-    border-collapse: collapse;
-    width: 80%;
-    max-width: 600px;
-}
-
-#res th, #res td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
-
-#res th {
-    background-color: #f0f0f0;
-    font-weight: bold;
-}
-
-.imagemProgramacao{
-      width: 260px;
-    height: 200px;
-}
-
-.botao-fechar, .botao-explicacao{
+.botao-fechar, .botao-explicacao, .botao-calcular{
     padding: 10px;
     background-color: var(--azul-eletrico);
     color: var(--branco);
@@ -415,35 +250,43 @@ margin-top: 10px;
     margin: 10px;
 }
 
-.card-botaoTutorial{
+.container  p{
+    color: var(--preto);
+}
+
+.operacoes{
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+}
+
+.operacoes input{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.cardInputs{
+    display: flex;
+    flex-flow: row;
     align-items: center;
-    margin: 20px;
-}
-.botao-acessarTutorial{
-    background-color: var(--amarelo);
-    font-size: 1em;
-    font-weight: bolder;
-    padding: 10px;
-    border-radius: 15px;
-    cursor: pointer;
 }
 
-.botao-acessarTutorial:hover{
-    box-shadow: 2px 2px 2px var(--cinza-claro);
-    transform: scale(1.1);
+.card3Inputs{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
-
-@media screen and (min-width: 768px) {
-    section#link {
-    height: 519px;
-    flex-flow: row wrap;
-}
-#opcoes{
-    flex-flow: row wrap;
-    justify-content: center;
+#opcaoOhms{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
+#material{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
 }
