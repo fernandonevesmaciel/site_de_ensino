@@ -24,7 +24,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    animation: slideIn 1s ease-in-out forwards;
 }
+
 
 /* Tipografia */
 h1, h2, h3, nav, button, p {
@@ -73,6 +75,7 @@ header {
     color: var(--branco);
     font-size: 1.5em;
     z-index: 2;
+    cursor: pointer;
 
 }
 
@@ -81,6 +84,7 @@ header {
     top: 12px;
     left: 215px;
     z-index: 6;
+    cursor: pointer;
 }
 
 /* Menu lateral */
@@ -133,7 +137,7 @@ header {
 .hero h1 {
     color: var(--branco);
     margin-bottom: 20px;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 .hero p{
     padding: 10px;
@@ -246,13 +250,32 @@ footer {
 
 
 @media screen and (min-width: 768px) {
+    .hero{
+        height: 100px;
+    }
+
+    .hero h1{
+        font-size: 4em;
+    }
+
     section#link {
     height: 519px;
     flex-flow: row nowrap;
 }
-#opcoes{
+    #opcoes{
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

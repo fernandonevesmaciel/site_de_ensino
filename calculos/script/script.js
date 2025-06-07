@@ -250,6 +250,78 @@ function carregar() {
         </p>
         `
     )
+
+    criarLinha(
+        "Cabos para Motores Trifásicos",
+        `
+        <div class="operacoes">
+            <p>🔢 Informe dois valores para calcular o terceiro:<br></p>
+            <div class="card3Inputs">
+                <input type="number" id="inputcorrente" class="inputs" placeholder="Corrente (A)">
+                <input type="number" id="inputdistancia" class="inputs" placeholder="Distância (M)">
+                <input type="number" id="inputfase" class="inputs" placeholder="Tensão (v)">
+
+            </div>
+
+            
+            
+            <button onclick="calcularCabo()" class="botao-calcular">Calcular</button><br><br>
+            <p>🧠 Resultado: <span id="resultadoCalcularCabo"></span></p>
+        </div>
+        `,
+        `
+        <table>
+    <caption>Capacidade de Corrente por Bitola (mm²)</caption>
+    <thead>
+      <tr>
+        <th>Bitola (mm²)</th>
+        <th>Corrente (A)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1,5</td><td>15 A</td></tr>
+      <tr><td>2,5</td><td>21 A</td></tr>
+      <tr><td>4</td><td>28 A</td></tr>
+      <tr><td>6</td><td>36 A</td></tr>
+      <tr><td>10</td><td>50 A</td></tr>
+      <tr><td>16</td><td>68 A</td></tr>
+      <tr><td>25</td><td>85 A</td></tr>
+      <tr><td>35</td><td>105 A</td></tr>
+      <tr><td>50</td><td>125 A</td></tr>
+      <tr><td>70</td><td>160 A</td></tr>
+      <tr><td>95</td><td>190 A</td></tr>
+      <tr><td>120</td><td>215 A</td></tr>
+      <tr><td>150</td><td>245 A</td></tr>
+      <tr><td>185</td><td>280 A</td></tr>
+      <tr><td>240</td><td>325 A</td></tr>
+    </tbody>
+  </table><br><br>
+        📌 Observações:
+        <ul>
+        <li>Esses valores são aproximados e podem variar conforme:</li>
+        <li>Tipo de instalação (bandeja, enterrado, eletroduto, ao ar livre);</li>
+        <li>Temperatura ambiente;</li>
+        <li>Tipo de isolação (PVC, XLPE, EPR, PP, etc);</li>
+        <li>Número de cabos carregados simultaneamente.</li>
+        <li>Use os fatores de correção da NBR 5410 para adequar à sua realidade.</li>
+        <li>Para motores trifásicos com cabo PP 4 vias, os valores devem considerar a corrente nominal do motor e a queda de tensão admissível (geralmente 4%).</li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        `
+    )
 }
 
 function calcularOhm() {
@@ -333,6 +405,7 @@ function calcularCorrente(){
 
 function calcularQuedaTensao() {
     const comprimento = parseFloat(document.getElementById('comprimento').value);
+    const comprimentoTotal = comprimento * 2
     const corrente = parseFloat(document.getElementById('corrente').value);
     const secao = parseFloat(document.getElementById('secao').value);
     const material = document.getElementById('material').value;
@@ -346,7 +419,7 @@ function calcularQuedaTensao() {
 
     const resistividade = material === 'cobre' ? 17.5 : 28;
 
-    const queda = (2 * comprimento * corrente * (resistividade / secao)) / 1000;
+    const queda = (2 * comprimentoTotal * corrente * (resistividade / secao)) / 1000;
 
     resultadoSpan.innerHTML = `A queda de tensão é ${queda.toFixed(2)} V`;
 }
@@ -395,6 +468,36 @@ function calcularKh (){
     resultadoSpan.innerHTML = `Se o KWh custa R$${v3}, e você gastou ${resultadokh}. Isso dá R$${valorGasto}`
 }
 
+function calcularCabo() {
+      const corrente = parseFloat(document.getElementById("inputcorrente").value);
+      const distancia = parseFloat(document.getElementById("inputdistancia").value);
+      const distanciaTotal = distancia * 2
+      const tensao = parseFloat(document.getElementById("inputfase").value);
+      const resultadoSpan = document.getElementById('resultadoCalcularCabo');
+      if (isNaN(corrente) || isNaN(distancia)) {
+        resultado.innerHTML = "Por favor, preencha todos os campos corretamente.";
+        return;
+      }
+
+      const resistividade = 0.0175; // cobre, em ohm*mm²/km
+      const quedaMax = tensao * 0.04; // 4% da tensão
+      const bitola = (2 * resistividade * distanciaTotal * corrente) / quedaMax;
+
+      let bitolaAproximada;
+      if (bitola <= 2.5) bitolaAproximada = "2,5 mm²";
+      else if (bitola <= 4) bitolaAproximada = "4 mm²";
+      else if (bitola <= 6) bitolaAproximada = "6 mm²";
+      else if (bitola <= 10) bitolaAproximada = "10 mm²";
+      else if (bitola <= 16) bitolaAproximada = "16 mm²";
+      else if (bitola <= 25) bitolaAproximada = "25 mm²";
+      else bitolaAproximada = "+25 mm² (Consultar projeto). Obs: em explicação tem uma tabela com as correntes suportadas";
+
+      resultadoSpan.innerHTML = `✅ Bitola mínima recomendada: <strong>${bitolaAproximada}</strong><br/>
+        🔌 Tipo de cabo: <strong>PP 4 vias</strong><br/>
+        📏 Distância: <strong>${distancia}m</strong> — ⚡ Corrente: <strong>${corrente}A</strong>`
+
+
+    }
 
 
 function criarLinha(titulo, conteudoHtml, textoExplicativoHtml) {

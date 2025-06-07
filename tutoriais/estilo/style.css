@@ -20,7 +20,8 @@
 /* Body Geral */
 body {
     background-color: var(--azul-escuro);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -68,6 +69,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    animation: slideIn2 1s ease-in-out forwards;
 }
 
 #nomeempresa {
@@ -81,6 +83,8 @@ header {
     color: var(--branco);
     font-size: 1.5em;
     z-index: 2;
+    animation: slideIn 1s ease-in-out forwards;
+    cursor: pointer;
 
 }
 
@@ -89,6 +93,7 @@ header {
     top: 12px;
     left: 215px;
     z-index: 6;
+    cursor: pointer;
 }
 
 /* Menu lateral */
@@ -134,8 +139,16 @@ header {
 
 /* Hero Section */
 .hero {
-    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     padding: 40px 20px;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+.hero h2{
+    padding-top: 20px;
+    text-align: start;
 }
 
 .hero h1 {
@@ -243,11 +256,12 @@ footer {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    animation: slideIn 1s ease-in-out forwards;
 }
 .opcoestutorial{
     background-color: var(--branco);
-    width: 300px;
-    height: 460px;
+    width: 380px;
+    height: 550px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
@@ -255,13 +269,15 @@ footer {
     border-radius: 10px;
 }
 .opcoestutorial h2{
-    font-size: 1.3em;
+    font-size: 2em;
     margin: 5px;
     color: var(--preto);
 }
 .opcoestutorial li{
+    list-style-type: none;
     margin-left: 5px;
     color: rgb(87, 85, 85);
+    
 }
 
 .imagemTutorial{
@@ -271,6 +287,19 @@ footer {
 
 .linktutorial{
     text-decoration: none;
+}
+
+.cardInt{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardInt ul{
+
+    align-self: self-start;
 }
 
 .explicacao{
@@ -284,7 +313,7 @@ footer {
     color: var(--preto);
     text-align: center;
     padding: 5px;
-
+    
 }
 
 .explicacao p{
@@ -435,6 +464,23 @@ margin-top: 10px;
     transform: scale(1.1);
 }
 
+.LinkDownload{
+    background-color: var(--azul-eletrico);
+    color: var(--branco);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.LinkDownload:hover{
+    background-color: #3182ce;
+}
+
+#res, #res2{
+    animation: slideIn 1s ease-in-out forwards;
+}
+
 
 @media screen and (min-width: 768px) {
     section#link {
@@ -446,4 +492,26 @@ margin-top: 10px;
     justify-content: center;
 }
 
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn2 {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

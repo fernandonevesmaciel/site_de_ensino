@@ -19,6 +19,8 @@
 
 /* Body Geral */
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: var(--azul-escuro);
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -49,6 +51,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    animation: slideIn2 1s ease-in-out forwards;
 }
 
 #nomeempresa {
@@ -62,14 +65,17 @@ header {
     color: var(--branco);
     font-size: 1.5em;
     z-index: 2;
-
+    animation: slideIn 1s ease-in-out forwards;
+    cursor: pointer;
 }
+
 
 .botao-menu.ativo{
     position:absolute;
     top: 12px;
     left: 215px;
     z-index: 6;
+    cursor: pointer;
 }
 
 /* Menu lateral */
@@ -117,7 +123,9 @@ header {
 .hero {
     text-align: center;
     padding: 40px 20px;
+    animation: slideIn 1s ease-in-out forwards;
 }
+
 
 .hero h1 {
     color: var(--branco);
@@ -290,3 +298,61 @@ footer {
     margin: 10px;
     border-radius: 5px;
 }
+
+ table {
+      width: 100%;
+      max-width: 600px;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #0077cc;
+      color: #fff;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+#res{
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn2 {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
