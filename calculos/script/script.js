@@ -425,7 +425,7 @@ function calcularQuedaTensao() {
 }
 
 function atualizarPlaceholdersLeiDeOhms() {
-    const opcao = document.getElementById('opcao').value;
+    const opcao = document.getElementById('opcaoOhms').value;
     const input1 = document.getElementById('valor1');
     const input2 = document.getElementById('valor2');
 
@@ -446,7 +446,7 @@ function atualizarPlaceholdersLeiDeOhms() {
     }
 
     // Também limpa o resultado anterior, se quiser
-    document.getElementById('resultado').innerText = '';
+    document.getElementById('resultadoOhms').innerText = '';
 }
 
 function calcularKh (){

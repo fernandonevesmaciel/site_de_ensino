@@ -260,7 +260,7 @@ footer {
 }
 .opcoestutorial{
     background-color: var(--branco);
-    width: 380px;
+    width: 370px;
     height: 550px;
     display: flex;
     flex-flow: column wrap;
