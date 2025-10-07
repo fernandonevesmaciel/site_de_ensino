@@ -3,7 +3,7 @@ const menuLateral = document.querySelector('.menu-lateral')
 const background = document.querySelector('.background')
 const menu = document.querySelector('#menu')
 const res = document.querySelector('#res')
-const res2 = document.querySelector('#res2')
+
 
 botao.addEventListener('click', () =>{
     menuLateral.classList.toggle('ativo')
@@ -832,23 +832,6 @@ function carregar(){
         
     )
 
-    res2.innerHTML = `<h2>Programação WLP</h2>`
-    criarLinha2(
-        "Como baixar e instalar o software", 
-        `
-        <P>O WLP (WEG Ladder Programming) é o software oficial da WEG para programar inversores como o CFW500 utilizando lógica Ladder.</P>
-        <P>Assim facilitando pequenas automações sem a necessidade de um CLP.</P>
-
-        <P>link direto de download abaixo:</P>
-
-        <a href="https://static.weg.net/medias/downloadcenter/hf7/h29/WEG-WLP-software-setup-pt-en-es.zip" class="LinkDownload">DOWNLOAD</a>
-
-        <P>👇 Clique abaixo para ver o passo a passo completo e ilustrado.</P>
-        `,
-        `
-        
-        `
-    )
 }
 
 carregar();

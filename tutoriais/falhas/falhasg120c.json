@@ -1,0 +1,2877 @@
+[
+  {
+    "codigo": "F01000",
+    "causa": "Erro de software interno",
+    "causasProvaveis": [
+      "avaliar buffer de falha (r0945).",
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "se necessário, verificar os dados na memória não volátil (por exemplo, cartão de memória).",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01001",
+    "causa": "Exceção Floating Point (Ponto flutuante)",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "verificar a configuração e os sinais dos blocos em FBLOCKS.",
+      "verificar a configuração e os sinais dos quadros DCC.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F01002",
+    "causa": "Erro de software interno",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F01003",
+    "causa": "Atraso de reconhecimento ao acessar à memória",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "N01004",
+    "causa": "Erro de software interno",
+    "causasProvaveis": [
+      "ler o parâmetro de diagnóstico (r9999).",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F01005",
+    "causa": "Erro de upload/download de arquivo",
+    "causasProvaveis": [
+      "Salvar um arquivo de firmware adequado ou o arquivo EEPROM para upload ou download na pasta \"/ee_sac/\" no cartão de memória."
+    ]
+  },
+  {
+    "codigo": "A01009",
+    "causa": "CU: Temperatura excessiva do módulo de controle",
+    "causasProvaveis": [
+      "verificar a entrada de ar da Unidade de Controle.",
+      "verificar o ventilador da Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01010",
+    "causa": "Tipo de unidade desconhecido",
+    "causasProvaveis": [
+      "substituir o Módulo de Alimentação.",
+      "executar um POWER ON (desligar/ligar).",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F01015",
+    "causa": "Erro de software interno",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "A01016",
+    "causa": "Alteração de firmware",
+    "causasProvaveis": [
+      "Para a memória não volátil do firmware (cartão de memória/memória do dispositivo), restaurar a condição de entrega."
+    ]
+  },
+  {
+    "codigo": "A01017",
+    "causa": "Alteração das listas de componentes",
+    "causasProvaveis": [
+      "Para o arquivo no cartão de memória envolvido, restaurar o status originalmente fornecido pela fábrica."
+    ]
+  },
+  {
+    "codigo": "F01018",
+    "causa": "A reinicialização foi interrompida diversas vezes",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar). Depois de ligar, o módulo reinicializa a partir da parametrização válida (se disponível).",
+      "restaurar a parametrização válida.",
+      "a) Realizar um primeiro comissionamento, salvar e executar um POWER ON (desligar/ligar).",
+      "b) Carregar outro parâmetro válido de backup (por exemplo, do cartão de memória), salvar e executar um POWER ON (desligar/ligar)."
+    ]
+  },
+  {
+    "codigo": "A01019",
+    "causa": "A gravação na mídia de dados removível não foi bem sucedida",
+    "causasProvaveis": [
+      "Remover e verificar a mídia de dados removível. Executar o backup de dados novamente."
+    ]
+  },
+  {
+    "codigo": "A01020",
+    "causa": "A gravação no disco RAM não foi bem sucedida",
+    "causasProvaveis": [
+      "Adaptar o tamanho de arquivo do livro de registro do sistema para o disco RAM interno (p9930)."
+    ]
+  },
+  {
+    "codigo": "A01021",
+    "causa": "Mídia de dados removível como mídia de armazenagem de dados USB a partir do PC utilizado",
+    "causasProvaveis": [
+      "Desativar a conexão de USB com o PC e fazer backup dos dados de configuração."
+    ]
+  },
+  {
+    "codigo": "F01023",
+    "causa": "Tempo limite do software (interno)",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "A01028",
+    "causa": "Erro de configuração",
+    "causasProvaveis": [
+      "Salvar parâmetros de modo não volátil (p0971=1)."
+    ]
+  },
+  {
+    "codigo": "F01030",
+    "causa": "Falha de sinal de vida do controle principal",
+    "causasProvaveis": [
+      "Definir o tempo de monitoramento mais alto no PC ou, se necessário, desativar completamente a função de monitoramento."
+    ]
+  },
+  {
+    "codigo": "F01033",
+    "causa": "Comutação de unidades: Valor de parâmetro de referência inválido",
+    "causasProvaveis": [
+      "Definir o valor do parâmetro de referência para um número diferente de 0,0."
+    ]
+  },
+  {
+    "codigo": "F01034",
+    "causa": "Comutação de unidades: Valores do parâmetro de cálculo após uma alteração do valor de referência mal sucedida",
+    "causasProvaveis": [
+      "Selecionar o valor do parâmetro de referência de modo que o parâmetro envolvido possa ser calculado na representação por unidade.",
+      "Seleção de unidade tecnológica (p0595) antes de alterar o parâmetro de referência p0596, definir p0595 = 1."
+    ]
+  },
+  {
+    "codigo": "A01035",
+    "causa": "ACX: Arquivo de backup de parâmetro corrompido",
+    "causasProvaveis": [
+      "Refazer download do projeto com o software de comissionamento.",
+      "salvar todos os parâmetros (p0971=1 ou \"copiar RAM para ROM\")."
+    ]
+  },
+  {
+    "codigo": "F01036",
+    "causa": "ACX: Arquivo de backup de parâmetro ausente",
+    "causasProvaveis": [
+      "Se salvou os dados do projeto usando o software de comissionamento, realizar um novo download para seu projeto.",
+      "Salvar utilizando a função \"Copiar RAM para ROM\" ou com p0971 = 1.",
+      "Isso significa que os arquivos de parâmetro são novamente gravados na memória não volátil."
+    ]
+  },
+  {
+    "codigo": "F01038",
+    "causa": "ACX: Carregamento do arquivo de backup de parâmetro mal sucedido",
+    "causasProvaveis": [
+      "se salvou os dados do projeto usando o software de comissionamento, realizar um novo download do projeto. Salvar utilizando a função \"Copiar RAM para ROM\" ou com p0971 =1 Isso significa que os arquivos de parâmetro são novamente gravados na memória não volátil.",
+      "substituir o cartão de memória ou a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01039",
+    "causa": "ACX: Gravação no arquivo de backup de parâmetro mal sucedida",
+    "causasProvaveis": [
+      "verificar o atributo de arquivo dos arquivos (PSxxxyyy.***, CAxxxyyy.***, CCxxxyyy.***) e, se necessário, alterar de \"somente leitura\" para \"gravável\".",
+      "verificar o espaço livre de memória na memória não volátil. São necessários aproximadamente 80 kbytes de espaço livre de memória para cada objeto de unidade no sistema.",
+      "substituir o cartão de memória ou a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01040",
+    "causa": "Salvar configurações de parâmetro e executar um POWER ON",
+    "causasProvaveis": [
+      "Salvar parâmetros (p0971).",
+      "executar um POWER ON (desligar/ligar) para a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01042",
+    "causa": "Erro de parâmetro durante o download de projeto",
+    "causasProvaveis": [
+      "inserir o valor correto no parâmetro especificado.",
+      "identificar o parâmetro que restringe os limites do parâmetro especificado."
+    ]
+  },
+  {
+    "codigo": "F01043",
+    "causa": "Erro fatal no download de projeto",
+    "causasProvaveis": [
+      "utilizar a versão atual do software de comissionamento.",
+      "modificar o projeto offline e fazer download novamente (por exemplo, comparar o motor e o Módulo de Alimentação no projeto offline e na unidade).",
+      "alterar o estado da unidade (é uma unidade girando ou há uma mensagem/sinal?).",
+      "observar cuidadosamente quaisquer outras mensagens/sinais e remover a causa deles.",
+      "reinicializar a partir de arquivos anteriormente salvos (desligar/ligar ou p0970)."
+    ]
+  },
+  {
+    "codigo": "F01044",
+    "causa": "CU: Erro de dados descritivos",
+    "causasProvaveis": [
+      "Substituir o cartão de memória ou a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "A01045",
+    "causa": "Dados de configuração inválidos",
+    "causasProvaveis": [
+      "verificar os parâmetros exibidos em r9406 a r9408 e corrigí-los se necessário.",
+      "Restaurar a configuração de fábrica usando (p0970=1) e recarregar o projeto na unidade de acionamento."
+    ]
+  },
+
+  {
+    "codigo": "A01049",
+    "causa": "Não é possível gravar no arquivo",
+    "causasProvaveis": [
+      "Verificar se o atributo \"protegido contra gravação\" foi definido para os arquivos na memória não volátil em .../USER/SINAMICS/DATA/... Quando solicitado, remover a proteção contra gravação e salvar novamente (por exemplo, definir p0971 como 1)."
+    ]
+  },
+  {
+    "codigo": "F01054",
+    "causa": "CU: Limite de sistema excedido",
+    "causasProvaveis": [
+      "reduzir a carga do tempo de computação da unidade de acionamento (r9976 [1] e r9976[5]) para menos de 100%.",
+      "verificar os tempos de amostragem e ajustar, se necessário (p0115, p0799, p4099).",
+      "desativar os módulos de função.",
+      "desativar os objetos de unidade.",
+      "remover os objetos de unidade da topologia alvo.",
+      "observar as regras de topologia de DRIVE-CLIQ e, se necessário, alterar a topologia de DRIVE-CLIQ.",
+      "se necessário, a atribuição do grupo de tempo de execução (p21000, p20000) pode ser alterada para aumentar o tempo de amostragem (r21001, r20001).",
+      "se necessário, reduzir o número de blocos calculados de forma cíclica (DCC) e/ou de blocos de função (FBLOCKS)."
+    ]
+  },
+  {
+    "codigo": "A01064",
+    "causa": "CU: Erro interno (CRC)",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "A01066",
+    "causa": "Memória buffer: 70% do nível de preenchimento atingidos ou excedidos",
+    "causasProvaveis": [
+      "Se necessário, desativar e limpar a memória buffer (p0014=0).",
+      "Se necessário, limpar a memória buffer (p0014=2).",
+      "Nos casos a seguir, as entradas na memória buffer são transferidas para a ROM e a memória buffer é limpa:",
+      "- p0971 = 1",
+      "desligar/ligar a Unidade de Controle"
+    ]
+  },
+  {
+    "codigo": "A01067",
+    "causa": "Memória buffer: 100% do nível de preenchimento atingidos",
+    "causasProvaveis": [
+      "Se necessário, desativar e limpar a memória buffer (p0014=0).",
+      "Se necessário, limpar a memória buffer (p0014=2).",
+      "Nos casos a seguir, as entradas na memória buffer são transferidas para a ROM e a memória buffer é limpa:",
+      "- p0971 = 1",
+      "desligar/ligar a Unidade de Controle"
+    ]
+  },
+  {
+    "codigo": "F01068",
+    "causa": "CU: Sobrefluxo da memória de dados",
+    "causasProvaveis": [
+      "desativar o módulo de função.",
+      "desativar o objeto de unidade.",
+      "remover o objeto de unidade da topologia alvo."
+    ]
+  },
+  {
+    "codigo": "A01069",
+    "causa": "Backup de parâmetro e dispositivo incompatíveis",
+    "causasProvaveis": [
+      "inserir um cartão de memória com um backup de parâmetro compatível e executar um POWER ON.",
+      "inserir um cartão de memória sem um backup de parâmetro e executar um POWER ON.",
+      "se necessário, retirar o cartão de memória e executar um POWER ON.",
+      "salvar os parâmetros (p0971=1)."
+    ]
+  },
+  {
+    "codigo": "F01072",
+    "causa": "Cartão de memória restaurado a partir da cópia de backup",
+    "causasProvaveis": [
+      "Verificar se o firmware e a parametrização estão atualizados."
+    ]
+  },
+  {
+    "codigo": "A01073",
+    "causa": "POWER ON necessário para cópia de backup no cartão de memória",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) para a Unidade de Controle.",
+      "realizar uma redefinição de hardware (botão RESET, p0972)."
+    ]
+  },
+  {
+    "codigo": "F01105",
+    "causa": "CU: Memória insuficiente",
+    "causasProvaveis": [
+      "reduzir o número de conjuntos de dados."
+    ]
+  },
+  {
+    "codigo": "F01107",
+    "causa": "Falha ao salvar no cartão de memória",
+    "causasProvaveis": [
+      "tentar salvar novamente.",
+      "substituir o cartão de memória ou a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01112",
+    "causa": "CU: Unidade de alimentação não autorizada",
+    "causasProvaveis": [
+      "Substituir a unidade de alimentação que não tem autorização por um componente autorizado."
+    ]
+  },
+  {
+    "codigo": "F01120",
+    "causa": "Falha da inicialização do terminal",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01122",
+    "causa": "Frequência alta demais na entrada da sonda de medição",
+    "causasProvaveis": [
+      "Reduzir a frequência dos pulsos na entrada da sonda de medição."
+    ]
+  },
+  {
+    "codigo": "F01152",
+    "causa": "CU: Constelação inválida dos tipos de objeto de unidade",
+    "causasProvaveis": [
+      "desligar a unidade.",
+      "restringir o uso dos tipos de objeto de unidade SERVO, VECTOR, HLA para um máximo de 2.",
+      "recomissionar a unidade."
+    ]
+  },
+  {
+    "codigo": "F01205",
+    "causa": "CU: Sobrefluxo da fatia de tempo",
+    "causasProvaveis": [
+      "Entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F01250",
+    "causa": "CU: Dados somente leitura incorretos na EEPROM da CU",
+    "causasProvaveis": [
+      "executar um POWER ON.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "A01251",
+    "causa": "CU: Dados de gravação/leitura incorretos na EEPROM da CU",
+    "causasProvaveis": [
+      "Para o valor de alarme r2124 < 256, o seguinte se aplica:",
+      "executar um POWER ON.",
+      "substituir a Unidade de Controle.",
+      "Para o valor de alarme r2124 >= 256, o seguinte se aplica:",
+      "limpar a memória de falha (p0952=0).",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01257",
+    "causa": "CU: Versão de firmware desatualizada",
+    "causasProvaveis": [
+      "Para o valor de falha = 1, 2, 4:",
+      "Atualizar o firmware da Unidade de Controle.",
+      "Para o valor de falha = 3:",
+      "Atualizar o firmware da Unidade de Controle.",
+      "Substituir o Módulo de Alimentação por um componente compatível."
+    ]
+  },
+  {
+    "codigo": "F01340",
+    "causa": "Topologia: Muitos componentes em uma linha",
+    "causasProvaveis": [
+      "verificar a fiação DRIVE-CLIQ.",
+      "reduzir o número de componentes na linha de DRIVE-CLIQ envolvida e distribuir esses componentes para outros soquetes de DRIVE-CLIQ da Unidade de Controle. Isso significa que a comunicação será uniformemente distribuída por diversas linhas.",
+      "aumentar os tempos de amostragem (p0112, p0115, p4099). Se necessário, para DCC ou FBLOCKS, alterar a atribuição do grupo de tempo de execução (p21000, p20000) para que o tempo de amostragem (r21001, r20001) aumente.",
+      "se necessário, reduzir o número de blocos calculados de forma cíclica (DCC) e/ou de blocos de função (FBLOCKS).",
+      "reduzir os módulos de função (r0108).",
+      "estabelecer as condições de operação com um tempo de amostragem atual do controlador de 31,25 us.",
+      "verificar as configurações dos ciclos (p0112, p0115, p4099). Os ciclos em uma linha de DRIVE-CLIQ devem ser números inteiros perfeitos múltiplos de outros.",
+      "verificar as configurações dos ciclos (p0112, p0115, p4099). Quanto menor for a diferença de valor numérico entre dois ciclos, mais alto será o mínimo múltiplo comum."
+    ]
+  },
+  {
+    "codigo": "F01505",
+    "causa": "BICO: Não é possível estabelecer uma interconexão",
+    "causasProvaveis": [
+      "O receptor de parâmetros deve ser alterado.",
+      "Estabelecer outra interconexão."
+    ]
+  },
+  {
+    "codigo": "F01510",
+    "causa": "BICO: A origem de sinal não é um tipo flutuante",
+    "causasProvaveis": [
+      "Interconectar essa saida de conector com uma saída de conector que tenha um tipo de dados flutuante."
+    ]
+  },
+  {
+    "codigo": "F01511",
+    "causa": "BICO: Interconexão com diferentes escalas",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "F01512",
+    "causa": "BICO: Nenhuma escala disponível",
+    "causasProvaveis": [
+      "Aplicar a escala ou verificar o valor de transferência."
+    ]
+  },
+  {
+    "codigo": "F01513",
+    "causa": "BICO: Interconexão cruzada DO com diferentes escalas",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "A01514",
+    "causa": "BICO: Erro ao gravar durante uma reconexão",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "F01515",
+    "causa": "BICO: Não é permitido gravar um parâmetro, pois o controle principal está ativo",
+    "causasProvaveis": [
+      "Se necessário, retomar o controle principal e repetir a operação."
+    ]
+  },
+  {
+    "codigo": "A01590",
+    "causa": "Unidade: Intervalo de manutenção do motor expirado",
+    "causasProvaveis": [
+      "realizar o serviço/manutenção e redefinir o intervalo de serviço/manutenção (p0651)."
+    ]
+  },
+  {
+    "codigo": "F01600",
+    "causa": "SI P1 (CU): PARADA A iniciada",
+    "causasProvaveis": [
+      "marcar \"Torque desligado de modo seguro\" e desmarcar novamente.",
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "substituir o Módulo de Alimentação envolvido.",
+      "Para o valor de falha = 1005: desativar os terminais de STO_A/STO_B no Módulo de Alimentação (definir as duas chaves DIP como \"OFF\") ou habilitar a função \"STO via terminais no Módulo de Alimentação\".",
+      "Para o valor de falha = 1030: verificar o tempo de discrepancia e, se necessário, aumentar o valor (p9650/p9850).",
+      "verificar o terminal de STO no Módulo de Alimentação (problemas de contato).",
+      "Para o valor de falha = 9999: executar um diagnóstico para a falha F01611."
+    ]
+  },
+  {
+    "codigo": "F01611",
+    "causa": "SI P1 (CU): Defeito em um canal de monitoramento",
+    "causasProvaveis": [
+      "verificar a comparação cruzada dos dados que resultou em uma PARADA F.",
+      "executar um POWER ON (desligar/ligar).",
+      "verificar a fiação de F-DI (problemas de contato).",
+      "PROFIsafe: Remover os problemas de contato/falhas na unidade principal PROFIBUS/controlador PROFINET.",
+      "verificar o tempo de discrepância e, se necessário, aumentar o valor (p9650/p9850).",
+      "verificar as causas da seleção de STO em r9772.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico.",
+      "substituir a Unidade de Controle.",
+      "verificar a configuração do valor no parâmetro F F_Dest_Add na unidade secundária PROFIsafe.",
+      "verificar a configuração do endereço PROFIsafe no processador 1 (p9610) e no processador 2 (p9810).",
+      "verificar a configuração do valor no parâmetro F F_WD_Time na unidade secundária PROFIsafe.",
+      "verificar a configuração do valor no parâmetro FF_SIL na unidade secundária PROFIsafe.",
+      "verificar a configuração do valor no parâmetro FF_CRC_ na unidade secundária PROFIsafe.",
+      "verificar a configuração do valor no parâmetro F F_Par_Version na unidade secundária PROFIsafe.",
+      "verificar as configurações dos valores dos parâmetros F e de CRC do parâmetro F (CRC1) calculados a partir desses na unidade secundária PROFIsafe e, se necessário, atualizar."
+    ]
+  },
+  {
+    "codigo": "N01620",
+    "causa": "SI P1 (CU): Torque Desligado de Modo Seguro ativo",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "F01625",
+    "causa": "SI P1 (CU): Erro de sinal de vida nos dados de segurança",
+    "causasProvaveis": [
+      "marcar \"Torque desligado de modo seguro\" e desmarcar novamente.",
+      "executar um POWER ON (desligar/ligar).",
+      "verificar se há falhas adicionais e, se necessário, realizar um diagnóstico.",
+      "verificar o design do gabinete elétrico e a passagem do cabo em conformidade com EMC"
+    ]
+  },
+  {
+    "codigo": "F01640",
+    "causa": "SI P1 (CU): substituição de componente identificada e reconhecimento/gravação necessário",
+    "causasProvaveis": [
+      "reconhecer a substituição do componente (p9702=29).",
+      "salvar todos os parâmetros (p0977=1 ou p0971=1 ou \"copiar RAM para ROM\").",
+      "identificar uma falha (por exemplo, Bl: p2103)."
+    ]
+  },
+  {
+    "codigo": "F01641",
+    "causa": "SI P1 (CU): substituição de componente identificada e gravação necessária",
+    "causasProvaveis": [
+      "salvar todos os parâmetros (p0977=1 ou p0971 =1 ou \"copiar RAM para ROM\").",
+      "identificar uma falha (por exemplo, BI: p2103)."
+    ]
+  },
+  {
+    "codigo": "F01649",
+    "causa": "SI P1 (CU): Erro de software interno",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "recomissionar a função \"Segurança Integrada\" e executar um POWER ON.",
+      "entrar em contato com o Suporte Técnico.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F01650",
+    "causa": "SI P1 (CU): Teste de aceitação necessário",
+    "causasProvaveis": [
+      "executar uma rotina de comissionamento de segurança.",
+      "executar novamente uma rotina de comissionamento de segurança.",
+      "substituir o cartão de memória ou a Unidade de Controle.",
+      "Usando STARTER, ativar os parâmetros de segurança para a unidade envolvida (alterar configurações, copiar parâmetros, ativar configurações).",
+      "verificar os parâmetros de segurança no processador 1 e adaptar a checksum de referência (p9799).",
+      "verificar os parâmetros de segurança no processador 2 e adaptar a checksum de referência (p9899).",
+      "ativar as funções relacionadas à segurança no processador 1 e verificar o processador 2 (p9601 = p9801).",
+      "realizar um teste de aceitação e gerar um relatório de aceitação.",
+      "verificar a ativação do controle de frenagem relacionado à segurança nos dois canais de monitoramento (p9602=p9802).",
+      "realizar um diagnóstico para outra falha relacionada à segurança presente."
+    ]
+  },
+  {
+    "codigo": "F01651",
+    "causa": "SI P1 (CU): Sincronização mal sucedida das fatias de tempo de segurança",
+    "causasProvaveis": [
+      "Executar um POWER ON (desligar/ligar)."
+    ]
+  },
+  {
+    "codigo": "F01653",
+    "causa": "SI P1 (CU): Erro de configuração de PROFIBUS/PROFINET",
+    "causasProvaveis": [
+      "verificar e, se necessário, corrigir a configuração de PROFIBUS/PROFINET da abertura de segurança no lado principal.",
+      "atualizar o software da Unidade de Controle.",
+      "remover a configuração de PROFIsafe no controle F de nível superior ou habilitar PROFIsafe na unidade.",
+      "configurar o telegrama PROFIsafe que corresponde à parametrização em F-PLC."
+    ]
+  },
+  {
+    "codigo": "A01654",
+    "causa": "SI P1 (CU): Desvio de configuração de PROFIsafe",
+    "causasProvaveis": [
+      "verificar e, se necessário, corrigir a configuração de PROFIsafe no controle de nível superior.",
+      "remover a configuração de PROFIsafe no controle F de nível superior ou habilitar PROFIsafe na unidade.",
+      "configurar o telegrama PROFIsafe para corresponder à parametrização no controle F de nível superior."
+    ]
+  },
+  {
+    "codigo": "F01655",
+    "causa": "SI P1 (CU): Alinhar as funções de monitoramento",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "verificar o design do gabinete elétrico e a passagem do cabo em conformidade com EMC"
+    ]
+  },
+  {
+    "codigo": "F01656",
+    "causa": "SI P1 (CU): Erro de parâmetro no processador 2",
+    "causasProvaveis": [
+      "recomissionar as funções de segurança.",
+      "substituir o cartão de memória ou a Unidade de Controle.",
+      "ativar o modo de comissionamento de segurança (p0010=95).",
+      "adaptar o endereço de PROFIsafe (p9610).",
+      "iniciar a função de cópia para parâmetros SI (p9700=D0 hex).",
+      "reconhecer a alteração de dados (p9701=DC hex).",
+      "sair do modo de comissionamento de segurança (p0010=0).",
+      "salvar todos os parâmetros (p0971=1 ou \"copiar RAM para ROM\").",
+      "executar um POWER ON (desligar/ligar) para a Unidade de Controle.",
+      "verificar o design do gabinete elétrico e a passagem do cabo em conformidade com EMC"
+    ]
+  },
+  {
+    "codigo": "F01658",
+    "causa": "SI P1 (CU): O número de telegrama PROFIsafe não é adequado",
+    "causasProvaveis": [
+      "Selecionar o número de telegrama que corresponde às funções de Selecione que foram habilitadas."
+    ]
+  },
+  {
+    "codigo": "F01659",
+    "causa": "SI P1 (CU): Solicitação de gravação para um parâmetro rejeitado",
+    "causasProvaveis": [
+      "definir a senha de Segurança Integrada (p9761).",
+      "inibir a Segurança Integrada (p9501, p9601) ou redefinir parâmetros de segurança (p0970=5), então redefinir novamente os parâmetros da unidade.",
+      "finalizar o modo de simulação para a entrada digital (p0795).",
+      "verificar se há falhas no alinhamento das funções de segurança (F01655, F30655) e, se necessário, executar o diagnóstico para as falhas envolvidas.",
+      "utilizar uma Unidade de Controle que suporta a função exigida.",
+      "corrigir a configuração de ativação (p9601).",
+      "utilizar um Módulo de Alimentação que suporta as funções de Segurança Integrada.",
+      "desativar o modo de simulação para a origem de sinal definida para STO (p9620) (p0795).",
+      "desativar o modo de simulação (p0795) para as F-DIs utilizadas pelas funções de Segurança Integrada (r10049, p10006, p10009).",
+      "utilizar a unidade de alimentação com o recurso \"STO via terminais no Módulo de Alimentação\"."
+    ]
+  },
+  {
+    "codigo": "F01660",
+    "causa": "SI P1 (CU): Funções relacionadas à segurança incompatíveis",
+    "causasProvaveis": [
+      "utilizar um Módulo de Alimentação que suporta as funções relacionadas à segurança."
+    ]
+  },
+  {
+    "codigo": "F01661",
+    "causa": "SI P1 (CU): Simulação das entradas de segurança ativas",
+    "causasProvaveis": [
+      "desativar a simulação das entradas digitais da Unidade de Controle para as entradas de segurança (p0795).",
+      "reconhecer a falha."
+    ]
+  },
+  {
+    "codigo": "F01662",
+    "causa": "Erro nas comunicações internas",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F01663",
+    "causa": "SI P1 (CU): Cópia dos parâmetros de Sl rejeitada",
+    "causasProvaveis": [
+      "definir p9700 como 0.",
+      "verificar p9501 e/ou p9601 e, se necessário, corrigir.",
+      "reiniciar a função de cópia ao inserir o valor correspondente em p9700."
+    ]
+  },
+  {
+    "codigo": "F01665",
+    "causa": "SI P1 (CU): O sistema está com defeito",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico.",
+      "desativar os terminais de STO_A/STO_B no Módulo de Alimentação (definir as duas chaves DIP como \"OFF\") ou habilitar a função \"STO via terminais no Módulo de Alimentação\".",
+      "verificar se a Unidade de Controle está conectada ao Módulo de Alimentação.",
+      "desmarcar a função \"STO via terminais no Módulo de Alimentação\"."
+    ]
+  },
+  {
+    "codigo": "A01666",
+    "causa": "SI Motion P1 (CU): Sinal do em estado constante (estático) 1 na F-DI para reconhecimento de segurança",
+    "causasProvaveis": [
+      "Definir a entrada digital à prova de falhas (F-DI) como um sinal lógico 0 (p10006)."
+    ]
+  },
+  {
+    "codigo": "A01669",
+    "causa": "SI Motion: Combinação desfavorável de motor e unidade de alimentação",
+    "causasProvaveis": [
+      "Utilizar uma unidade de alimentação adequada com uma taxa nominal de potência mais baixa ou um motor com uma taxa nominal de potência mais alta."
+    ]
+  },
+  {
+    "codigo": "A01678",
+    "causa": "SIM: Parada de teste para STO via terminais exigida no PM",
+    "causasProvaveis": [
+      "Marcar a função \"STO via terminais no Módulo de Alimentação\" e desmarcá-la novamente."
+    ]
+  },
+  {
+    "codigo": "F01680",
+    "causa": "SI Motion P1 (CU): Erro de checksum das funções de monitoramento de segurança",
+    "causasProvaveis": [
+      "verificar os parâmetros relevantes para a segurança e, se necessário, corrigir.",
+      "executar um POWER ON se os parâmetros de segurança que exigem um POWER ON tiverem sido modificados.",
+      "realizar um teste de aceitação."
+    ]
+  },
+  {
+    "codigo": "F01681",
+    "causa": "SI Motion P1 (CU): Valor de parâmetro incorreto",
+    "causasProvaveis": [
+      "Corrigir o valor de parâmetro."
+    ]
+  },
+  {
+    "codigo": "F01682",
+    "causa": "SI Motion P1 (CU): Função de monitoramento não suportada",
+    "causasProvaveis": [
+      "Desmarcar a função de monitoramento envolvida (p9501, p9601, p9801).",
+      "executar a função \"Copiar RAM para ROM\"."
+    ]
+  },
+  {
+    "codigo": "F01683",
+    "causa": "SI Motion P1 (CU): Habilitação de SLS ausente",
+    "causasProvaveis": [
+      "Habilitar a função \"SLS\" (p9501.0) e executar um POWER ON."
+    ]
+  },
+  {
+    "codigo": "F01690",
+    "causa": "SI Motion: Problema na gravação de dados de NVRAM",
+    "causasProvaveis": [
+      "utilizar uma NVRAM da Unidade de Controle.",
+      "desmarcar as funções desnecessárias e que consomem espaço de memória na NVRAM.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F01692",
+    "causa": "SI Motion P1 (CU): Valor de parâmetro não permitido sem codificador",
+    "causasProvaveis": [
+      "Corrigir o parâmetro especificado no valor de falha."
+    ]
+  },
+  {
+    "codigo": "A01693",
+    "causa": "SI P1 (CU): Alteração da configuração do parâmetro de segurança, POWER ON necessário",
+    "causasProvaveis": [
+      "executar a função \"Copiar RAM para ROM\".",
+      "executar um POWER ON (desligar/ligar)."
+    ]
+  },
+  {
+    "codigo": "A01696",
+    "causa": "SI Motion: Parada de teste para as funções de monitoramento de movimento selecionadas durante a inicialização",
+    "causasProvaveis": [
+      "Desmarcar o procedimento de verificação forçada das funções de monitoramento de movimento de segurança e marcar novamente."
+    ]
+  },
+  {
+    "codigo": "A01697",
+    "causa": "SI Motion: Exigência de parada de teste para as funções de monitoramento de movimento",
+    "causasProvaveis": [
+      "Realizar o procedimento de verificação forçada das funções de monitoramento de movimento de segurança."
+    ]
+  },
+  {
+    "codigo": "A01698",
+    "causa": "SI P1 (CU): Modo de comissionamento ativo",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "A01699",
+    "causa": "SI P1 (CU): Exigência de parada de teste para STO",
+    "causasProvaveis": [
+      "Marcar STO e desmarcar novamente."
+    ]
+  },
+  {
+    "codigo": "C01700",
+    "causa": "SI Motion P1 (CU): PARADA A iniciada",
+    "causasProvaveis": [
+      "eliminar a causa da falha no canal de monitoramento do processador 2.",
+      "executar uma rotina de diagnóstico para a mensagem C01706.",
+      "executar uma rotina de diagnóstico para a mensagem C01714.",
+      "executar uma rotina de diagnóstico para a mensagem C01701.",
+      "verificar o caminho do sinal de desligamento do processador 1.",
+      "substituir o Módulo de Alimentação.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "C01701",
+    "causa": "SI Motion P1 (CU): PARADA B iniciada",
+    "causasProvaveis": [
+      "eliminar a causa da falha no canal de monitoramento do processador 2.",
+      "executar uma rotina de diagnóstico para a mensagem C01714.",
+      "executar uma rotina de diagnóstico para a mensagem C01711.",
+      "executar uma rotina de diagnóstico para a mensagem C01707."
+    ]
+  },
+  {
+    "codigo": "C01706",
+    "causa": "SI Motion P1 (CU): Limite de SAM/SBR excedido",
+    "causasProvaveis": [
+      "Verificar o comportamento de frenagem e, se necessário, adaptar a parametrização das configurações de parâmetro da função \"SAM\" ou \"SBR\"."
+    ]
+  },
+  {
+    "codigo": "C01711",
+    "causa": "SI Motion P1 (CU): Defeito em um canal de monitoramento",
+    "causasProvaveis": [
+      "verificar a configuração dos parâmetros de engrenagem nos dois canais de monitoramento (p9521/p9321, p9522/p9322).",
+      "verifica o numerador da relação de engrenagem para garantir que ele considere o número de pares de pólos do motor (p9522/p9322).",
+      "aumentar o tempo de subida/descida da rampa do gerador funcional da rampa (p1120/p1121), reduzir o desempenho dinâmico da unidade.",
+      "se o valor de mensagem estiver listado sob a causa: Verificar os parâmetros de comparação cruzada aos quais o valor de mensagem se refere.",
+      "copiar os parâmetros de segurança.",
+      "executar um POWER ON (desligar/ligar).",
+      "atualizar o software da Unidade de Controle.",
+      "investigar o sinal associado à F-DI (problemas de contato).",
+      "verificar as condições de habilitação de pulso.",
+      "para diagnóstico, consultar o parâmetro (r9571).",
+      "substituir a Unidade de Controle.",
+      "reduzir a corrente mínima (p9588).",
+      "aumentar o tempo de subida/descida da rampa do gerador de função de rampa (p1120/p1121).",
+      "verificar se o controle de corrente/velocidade está corretamente definido (a corrente geradora de torque/geradora de campo e o valor real da velocidade não poderão flutuar).",
+      "reduzir a resposta dinâmica do valor do ponto de ajuste.",
+      "aumentar a corrente mínima (p9588).",
+      "aumentar a tolerância de tensão (p9589)."
+    ]
+  },
+  {
+    "codigo": "C01712",
+    "causa": "SI Motion P1 (CU): Defeito no processamento de F-IO",
+    "causasProvaveis": [
+      "verificar a parametrização nos parâmetros envolvidos e corrigir, se necessário.",
+      "garantir a equivalência ao copiar os dados SI para o processador 2 e, em seguida, executar um teste de aceitação."
+    ]
+  },
+  {
+    "codigo": "C01714",
+    "causa": "SI Motion P1 (CU): Velocidade limitada por segurança excedida",
+    "causasProvaveis": [
+      "verificar o programa de deslocamento/movimento no controle.",
+      "verificar os limites de \"SLS\" e, se necessário, adaptar de forma adequada (p9531)."
+    ]
+  },
+  {
+    "codigo": "C01716",
+    "causa": "SI Motion P1 (CU): Tolerância de direção de movimento seguro excedida",
+    "causasProvaveis": [
+      "verificar o programa de deslocamento/movimento no controle.",
+      "verificar a tolerância da função \"SDI\" e, se necessário, adaptar (p9564).",
+      "Desmarcar a função \"SDI\" e selecionar novamente.",
+      "realizar um reconhecimento seguro via \"Reconhecimento de evento interno\"."
+    ]
+  },
+  {
+    "codigo": "C01770",
+    "causa": "SI Motion P1 (CU): Erro de discrepância das entradas à prova de falhas",
+    "causasProvaveis": [
+      "verificar a fiação de F-DI (problemas de contato)."
+    ]
+  },
+  {
+    "codigo": "A01788",
+    "causa": "SIM: Uma parada de teste automática espera a desmarcação de STO via funções de monitoramento de movimento",
+    "causasProvaveis": [
+      "desmarcar STO via funções de monitoramento de movimento seguro.",
+      "remover a causa das mensagens de segurança e reconhecer as mensagens."
+    ]
+  },
+  {
+    "codigo": "A01790",
+    "causa": "SIM: Energização interrompida devido a STO via terminais",
+    "causasProvaveis": [
+      "Desmarcar STO via terminais de STO no Módulo de Alimentação (conectar STO_A e STO_B a 24 V).",
+      "se necessário, desativar a função \"STO via terminais no Módulo de Alimentação\" via chave DIP (as duas chaves DIP definidas como \"OFF\")."
+    ]
+  },
+  {
+    "codigo": "A01796",
+    "causa": "SI P1 (CU): Aguardar comunicação",
+    "causasProvaveis": [
+      "verificar quaisquer outras mensagens/sinais de comunicação de PROFIsafe presentes e avaliá-los.",
+      "verificar o estado operacional de F-Host.",
+      "verificar a conexão de comunicação em relação a F-Host."
+    ]
+  },
+  {
+    "codigo": "C01798",
+    "causa": "SI Motion P1 (CU): Execução de parada de teste para as funções de monitoramento de movimento",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "C01799",
+    "causa": "SI Motion P1 (CU): Modo de teste de aceitação ativo",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "A01900",
+    "causa": "PROFIBUS: Erro do telegrama de configuração",
+    "causasProvaveis": [
+      "Verificar a configuração de barramento nos lados principal e secundário.",
+      "Verificar o número de palavras de dados para entrada e saída.",
+      "Garantir uma versão offline <= versão online.",
+      "Verificar o endereço de PROFIsafe definido (p9610).",
+      "Verificar a ativação de F-DI (p9501.30)."
+    ]
+  },
+  {
+    "codigo": "F01910",
+    "causa": "Tempo esgotado do ponto de ajuste da interface de fieldbus",
+    "causasProvaveis": [
+      "Garantir que a conexão de barramento tenha sido estabelecida e ligar o parceiro de comunicação.",
+      "se necessário, adaptar p2040.",
+      "Para PROFIBUS: definir o lado principal de PROFIBUS com o estado de EXECUÇÃO.",
+      "se o erro repetir, verificar o monitoramento da resposta definida na configuração de barramento (Config. de HW).",
+      "redundância do lado secundário: Para a operação em uma conexão Y, deve ser garantido que \"Modo de alarme DP=DPV1\" seja definido na parametrização secundária."
+    ]
+  },
+  {
+    "codigo": "A01920",
+    "causa": "PROFIBUS: Interrupção da conexão cíclica",
+    "causasProvaveis": [
+      "Estabelecer a conexão de PROFIBUS e ativar o lado principal de PROFIBUS no modo cíclico."
+    ]
+  },
+  {
+    "codigo": "A01945",
+    "causa": "PROFIBUS: Falha da conexão com o Editor",
+    "causasProvaveis": [
+      "Verificar os cabos de PROFIBUS."
+    ]
+  },
+  {
+    "codigo": "F01946",
+    "causa": "PROFIBUS: Cancelamento da conexão com o Editor",
+    "causasProvaveis": [
+      "verificar os cabos de PROFIBUS.",
+      "verificar o estado do Editor que teve a conexão cancelada."
+    ]
+  },
+  {
+    "codigo": "F01951",
+    "causa": "CU SYNC: Ciclo de aplicação de sincronização ausente",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o software da Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "A01953",
+    "causa": "CU SYNC: Sincronização incompleta",
+    "causasProvaveis": [
+      "Executar um POWER ON (desligar/ligar)."
+    ]
+  },
+  {
+    "codigo": "A02050",
+    "causa": "Trace: A inicialização não é possível",
+    "causasProvaveis": [
+      "Parar o traço e, se necessário, iniciar novamente."
+    ]
+  },
+  {
+    "codigo": "A02051",
+    "causa": "Trace: a gravação não é possível como um resultado da proteção de know-how",
+    "causasProvaveis": [
+      "Ativar temporariamente ou desativar a proteção de know-how (p7766).",
+      "incluir o sinal na lista de exceções de OEM (p7763, p7764).",
+      "Se relevante, não gravar o sinal."
+    ]
+  },
+  {
+    "codigo": "A02055",
+    "causa": "Trace: Tempo de gravação muito curto",
+    "causasProvaveis": [
+      "Verificar o tempo de gravação selecionado e, se necessário, ajustálo-."
+    ]
+  },
+  {
+    "codigo": "A02056",
+    "causa": "Trace: Ciclo de gravação muito curto",
+    "causasProvaveis": [
+      "Aumentar o valor do ciclo de traço."
+    ]
+  },
+  {
+    "codigo": "A02057",
+    "causa": "Trace: Ciclo de fatia de tempo inválido",
+    "causasProvaveis": [
+      "Inserir um ciclo de fatia de tempo existente. As fatias de tempo existentes podem ser lidas via p7901."
+    ]
+  },
+  {
+    "codigo": "A02058",
+    "causa": "Trace: Ciclo de fatia de tempo para traço infinito inválido",
+    "causasProvaveis": [
+      "Inserir o ciclo de uma fatia de tempo existente com um tempo de ciclo >= 2 ms para até 4 canais de gravação ou >= 4 ms a partir de 5 canais de gravação por traço."
+    ]
+  },
+  {
+    "codigo": "A02059",
+    "causa": "Trace: Ciclo de fatia de tempo para 2x8 canais de gravação inválido",
+    "causasProvaveis": [
+      "Inserir o ciclo de uma fatia de tempo existente com um tempo de ciclo >= 4 ms ou reduzir o número de canais de gravação para 4 por traço."
+    ]
+  },
+  {
+    "codigo": "A02060",
+    "causa": "Trace: Sinal a ser traçado ausente",
+    "causasProvaveis": [
+      "especificar o sinal a ser traçado.",
+      "verificar se o sinal relevante pode ser traçado."
+    ]
+  },
+  {
+    "codigo": "A02061",
+    "causa": "Trace: Sinal inválido",
+    "causasProvaveis": [
+      "especificar o sinal a ser traçado.",
+      "verificar se o sinal relevante pode ser traçado."
+    ]
+  },
+  {
+    "codigo": "A02062",
+    "causa": "Trace: Sinal de disparo inválido",
+    "causasProvaveis": [
+      "Especificar um sinal de disparo válido."
+    ]
+  },
+  {
+    "codigo": "A02063",
+    "causa": "Trace: Tipo de dados inválido",
+    "causasProvaveis": [
+      "Utilizar um tipo de dados válido."
+    ]
+  },
+  {
+    "codigo": "A02070",
+    "causa": "Trace: O parâmetro não pode ser alterado",
+    "causasProvaveis": [
+      "parar o traço antes da parametrização.",
+      "se necessário, iniciar o traço."
+    ]
+  },
+  {
+    "codigo": "A02075",
+    "causa": "Trace: Tempo de pré-disparo muito longo",
+    "causasProvaveis": [
+      "Verificar a configuração do tempo de pré-disparo e alterá-la se necessário."
+    ]
+  },
+  {
+    "codigo": "F02080",
+    "causa": "Trace: Parametrização excluída devido a uma comutação de unidade",
+    "causasProvaveis": [
+      "Reiniciar o traço."
+    ]
+  },
+  {
+    "codigo": "A02095",
+    "causa": "MTrace 0: não é possível ativar um traço múltiplo",
+    "causasProvaveis": [
+      "se necessário, desativar o traço múltiplo (p4840[0]=0).",
+      "desativar a função ou a configuração que não é permitida"
+    ]
+  },
+  {
+    "codigo": "A02096",
+    "causa": "MTrace 0: não é possível salvar",
+    "causasProvaveis": [
+      "inserir ou retirar o cartão de memória.",
+      "utilizar um cartão de memória maior.",
+      "configurar um tempo de traço mais longo ou utilizar um traço infinito.",
+      "evitar salvar parâmetros enquanto um traço múltiplo está em execução.",
+      "verificar se outras funções estão atualmente acessando aos arquivos de resultado da medição."
+    ]
+  },
+  {
+    "codigo": "A02097",
+    "causa": "MTrace 1: não é possível ativar um traço múltiplo",
+    "causasProvaveis": [
+      "se necessário, desativar o traço múltiplo (p4840[1]=0).",
+      "desativar a função ou a configuração que não é permitida"
+    ]
+  },
+  {
+    "codigo": "A02098",
+    "causa": "MTrace 1: não é possível salvar",
+    "causasProvaveis": [
+      "inserir ou retirar o cartão de memória.",
+      "utilizar um cartão de memória maior.",
+      "configurar um tempo de traço mais longo ou utilizar um traço infinito.",
+      "evitar salvar parâmetros enquanto um traço múltiplo está em execução.",
+      "verificar se outras funções estão atualmente acessando aos arquivos de resultado da medição."
+    ]
+  },
+  {
+    "codigo": "A02099",
+    "causa": "Trace: Memória insuficiente da Unidade de Controle",
+    "causasProvaveis": [
+      "reduzir o tempo de traço.",
+      "aumentar o ciclo de traço.",
+      "reduzir o número de sinais a serem traçados."
+    ]
+  },
+  {
+    "codigo": "A02150",
+    "causa": "OA: A aplicação não pode ser carregada",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico.",
+      "Carregar uma biblioteca de usuário compatível (compatível com a interface da biblioteca padrão DCC)."
+    ]
+  },
+  {
+    "codigo": "F02151",
+    "causa": "OA: Erro de software interno",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F02152",
+    "causa": "OA: Memória insuficiente",
+    "causasProvaveis": [
+      "alterar a configuração nessa Unidade de Controle (por exemplo, algumas unidades, módulos funcionais, conjuntos de dados, aplicações de OA, blocos etc.).",
+      "utilizar outra Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F03000",
+    "causa": "Falha de NVRAM em ação",
+    "causasProvaveis": [
+      "Aplicar a solução de acordo com os resultados da solução de problemas.",
+      "se necessário, reiniciar a ação."
+    ]
+  },
+  {
+    "codigo": "F03001",
+    "causa": "Checksum de NVRAM incorreta",
+    "causasProvaveis": [
+      "Executar um POWER ON (desligar/ligar) em todos os componentes."
+    ]
+  },
+  {
+    "codigo": "F03505",
+    "causa": "Fio partido da entrada analógica",
+    "causasProvaveis": [
+      "verificar a conexão com a origem do sinal em busca de interrupções.",
+      "verificar a magnitude da corrente injetada é possível que o sinal de alimentação seja muito baixo."
+    ]
+  },
+  {
+    "codigo": "A03510",
+    "causa": "Dados de calibração não plausíveis",
+    "causasProvaveis": [
+      "desligar/ligar a fonte de alimentação da Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "A05000",
+    "causa": "Unidade de alimentação: Temperatura excessiva do dissipador de calor no conversor de CA",
+    "causasProvaveis": [
+      "a temperatura ambiente está dentro dos valores limites definidos?",
+      "as condições de carga e o ciclo de carga foram apropriadamente dimensionados?",
+      "a refrigeração falhou?"
+    ]
+  },
+  {
+    "codigo": "A05001",
+    "causa": "Unidade de alimentação: Temperatura excessiva da camada vazia no cavaco",
+    "causasProvaveis": [
+      "a temperatura ambiente está dentro dos valores limites definidos?",
+      "as condições de carga e o ciclo de carga foram apropriadamente dimensionados?",
+      "a refrigeração falhou?",
+      "a frequência de pulsos está muito alta?"
+    ]
+  },
+  {
+    "codigo": "A05002",
+    "causa": "Unidade de alimentação: Temperatura excessiva da entrada de ar",
+    "causasProvaveis": [
+      "a temperatura ambiente está dentro dos valores limites definidos?",
+      "o ventilador falhou? Verificar a direção de rotação."
+    ]
+  },
+  {
+    "codigo": "A05004",
+    "causa": "Unidade de alimentação: Temperatura excessiva do retificador",
+    "causasProvaveis": [
+      "a temperatura ambiente está dentro dos valores limites definidos?",
+      "as condições de carga e o ciclo de carga foram apropriadamente dimensionados?",
+      "o ventilador falhou? Verificar a direção de rotação.",
+      "uma fase da alimentação da linha falhou?",
+      "um braço do retificador de alimentação (entrada) está com defeito?"
+    ]
+  },
+  {
+    "codigo": "A05006",
+    "causa": "Unidade de alimentação: Temperatura excessiva do modelo térmico",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "A05065",
+    "causa": "Valores de tensão medidos não plausíveis",
+    "causasProvaveis": [
+      "Desativar a medição de tensão (p0247.0 = 0).",
+      "Desativar a reinicialização rápida com uma medição de tensão (p0247.5 = 0) e desativar a reinicialização rápida (p1780.11 = 0)."
+    ]
+  },
+  {
+    "codigo": "F06310",
+    "causa": "Tensão de alimentação (p0210) incorretamente parametrizada",
+    "causasProvaveis": [
+      "verificar a tensão de alimentação parametrizada e, se necessário, alterá-la (p0210).",
+      "verificar a tensão de alimentação da linha."
+    ]
+  },
+  {
+    "codigo": "A06921",
+    "causa": "Fase assimétrica do resistor de frenagem",
+    "causasProvaveis": [
+      "verificar os cabos do alimentador em relação aos resistores de frenagem.",
+      "se necessário aumentar o valor para detectar a assimetria (p1364)."
+    ]
+  },
+  {
+    "codigo": "F06922",
+    "causa": "Falha de fase no resistor de frenagem",
+    "causasProvaveis": [
+      "Verificar os cabos do alimentador em relação aos resistores de frenagem."
+    ]
+  },
+  {
+    "codigo": "F07011",
+    "causa": "Unidade: Temperatura excessiva do motor",
+    "causasProvaveis": [
+      "reduzir a carga do motor.",
+      "verificar a temperatura ambiente e a ventilação do motor.",
+      "verificar a fiação e a conexão do contato NC PTC ou bimetálico."
+    ]
+  },
+  {
+    "codigo": "A07012",
+    "causa": "Unidade: Temperatura excessiva do modelo 1/3 de temperatura do motor",
+    "causasProvaveis": [
+      "verificar a carga do motor e, se necessário, reduzi-la.",
+      "verificar a temperatura ambiente do motor.",
+      "verificar a ativação do modelo de temperatura do motor (p0612).",
+      "verificar a constante de tempo térmica (p0611).",
+      "verificar o limite de alarme (p0605).",
+      "verificar o tipo de motor.",
+      "verificar o limite de alarme (p5398).",
+      "verificar os parâmetros do modelo."
+    ]
+  },
+  {
+    "codigo": "A07014",
+    "causa": "Unidade: Alarme de configuração do modelo de temperatura do motor",
+    "causasProvaveis": [
+      "definir a resposta para temperatura excessiva do motor em relação a \"Alarme e falha, não há redução de I_máx\" (p0610=2)."
+    ]
+  },
+  {
+    "codigo": "A07015",
+    "causa": "Unidade: Alarme do sensor de temperatura do motor",
+    "causasProvaveis": [
+      "verificar se o sensor está corretamente conectado.",
+      "verificar a parametrização (p0601)."
+    ]
+  },
+  {
+    "codigo": "F07016",
+    "causa": "Unidade: Falha do sensor de temperatura do motor",
+    "causasProvaveis": [
+      "verificar se o sensor está corretamente conectado.",
+      "verificar a parametrização (p0601).",
+      "motores de indução: Desativar a falha do sensor de temperatura (p0607=0)."
+    ]
+  },
+  {
+    "codigo": "F07080",
+    "causa": "Unidade: Parâmetro de controle incorreto",
+    "causasProvaveis": [
+      "Modificar o parâmetro indicado no valor de falha (r0949) (por exemplo, p0640 = limite de corrente > 0)."
+    ]
+  },
+  {
+    "codigo": "F07082",
+    "causa": "Macro: A execução não é possível",
+    "causasProvaveis": [
+      "verificar o parâmetro envolvido.",
+      "verificar o arquivo de macro e a interconexão BICO."
+    ]
+  },
+  {
+    "codigo": "F07083",
+    "causa": "Macro: Arquivo ACX não encontrado",
+    "causasProvaveis": [
+      "verificar se o arquivo está salvo no diretório apropriado no cartão de memória."
+    ]
+  },
+  {
+    "codigo": "F07084",
+    "causa": "Macro: Condição WaitUntil (Aguardar até) não atendida",
+    "causasProvaveis": [
+      "Verificar e corrigir as condições para o loop WaitUntil."
+    ]
+  },
+  {
+    "codigo": "F07086",
+    "causa": "Comutação de unidades: Violação do limite de parâmetro devido a uma alteração no valor de referência",
+    "causasProvaveis": [
+      "Verificar o valor de parâmetro adaptado e, se necessário, corrigi-lo."
+    ]
+  },
+  {
+    "codigo": "F07088",
+    "causa": "Comutação de unidades: Violação do limite de parâmetro devido à comutação das unidades",
+    "causasProvaveis": [
+      "Verificar os valores de parâmetro adaptado e, se necessário, corrigi-los."
+    ]
+  },
+  {
+    "codigo": "A07089",
+    "causa": "Comutação de unidades: A ativação do módulo de função está bloqueada, pois as unidades foram comutadas",
+    "causasProvaveis": [
+      "Restaurar unidades que foram comutadas para a configuração de fábrica."
+    ]
+  },
+  {
+    "codigo": "A07092",
+    "causa": "Unidade: o estimador do momento de inércia ainda não está pronto",
+    "causasProvaveis": [
+      "Repetir a operação quando o estimador do momento de inércia estiver pronto (r1407.26 = 1)."
+    ]
+  },
+  {
+    "codigo": "A07094",
+    "causa": "Violação geral do limite de parâmetro",
+    "causasProvaveis": [
+      "Verificar os valores de parâmetro adaptado e, se necessário, corrigi-los."
+    ]
+  },
+  {
+    "codigo": "A07200",
+    "causa": "Unidade: Comando ON presente do controle principal",
+    "causasProvaveis": [
+      "Alternar o sinal via entrada de binector p0840 (CDS atual) ou pelo bit 0 da palavra de controle via controle principal para 0."
+    ]
+  },
+   {
+    "codigo": "F07220",
+    "causa": "Unidade: Controle principal por PLC ausente",
+    "causasProvaveis": [
+      "verificar a interconexão da entrada de binector para o sinal \"controle principal por PLC\" (p0854).",
+      "verificar o sinal \"controle principal por PLC\" e, se necessário, ativá-lo.",
+      "verificar a transferência de dados via fieldbus (principal/unidade)."
+    ]
+  },
+  {
+    "codigo": "F07300",
+    "causa": "Unidade: Sinal de retorno do contator de linha ausente",
+    "causasProvaveis": [
+      "verificar a configuração de p0860.",
+      "verificar o circuito de retorno do contator de linha.",
+      "aumentar o tempo de monitoramento em p0861."
+    ]
+  },
+  {
+    "codigo": "F07320",
+    "causa": "Unidade: Reinicialização automática interrompida",
+    "causasProvaveis": [
+      "aumentar o número de tentativas de reinicialização (p1211).",
+      "aumentar o tempo de atraso em p1212 e/ou o tempo de monitoramento em p1213.",
+      "aumentar ou desativar o tempo de monitoramento da unidade de alimentação (p0857).",
+      "reduzir o tempo de atraso para redefinir o contador de partidas (p1213[1]) de modo que menos falhas sejam registradas no intervalo de tempo."
+    ]
+  },
+  {
+    "codigo": "A07321",
+    "causa": "Unidade: Reinicialização automática ativa",
+    "causasProvaveis": [
+      "a reinicialização automática (AR) deve, se necessário, ser inibida (p1210=0).",
+      "uma reinicialização automática pode ser diretamente interrompida ao remover o comando de ligamento (BI: p0840).",
+      "para p1210 = 26: ao remover o comando OFF2-/OFF3."
+    ]
+  },
+  {
+    "codigo": "F07330",
+    "causa": "Reinicialização rápida: Medição de corrente de busca muito baixa",
+    "causasProvaveis": [
+      "Verificar os cabos do alimentador do motor."
+    ]
+  },
+  {
+    "codigo": "F07331",
+    "causa": "Reinicialização rápida: Função não suportada",
+    "causasProvaveis": [
+      "Desativar a função \"reinicialização rápida\" (p1200=0)."
+    ]
+  },
+  {
+    "codigo": "A07400",
+    "causa": "Unidade: Controlador máximo de tensão de conexão CC ativo",
+    "causasProvaveis": [
+      "aumentar os tempos de rampa baixa.",
+      "desligar o controlador max_Vcc (p1240=0 para controle de vetor, p1280=0 para controle de U/f).",
+      "utilizar um chopper ou uma unidade de retorno regenerativo."
+    ]
+  },
+  {
+    "codigo": "A07401",
+    "causa": "Unidade: Controlador máximo de tensão de conexão CC desativado",
+    "causasProvaveis": [
+      "verificar se a tensão de entrada está dentro da faixa permitida (se necessário, aumentar o valor em p0210).",
+      "verificar se o ciclo de carga e os limites de carga estão dentro dos limites permitidos."
+    ]
+  },
+  {
+    "codigo": "A07402",
+    "causa": "Unidade: Controlador mínimo de tensão de conexão CC ativo",
+    "causasProvaveis": [
+      "O alarme desaparece quando a fonte de alimentação retorna."
+    ]
+  },
+  {
+    "codigo": "F07404",
+    "causa": "Unidade: Monitoramento de tensão de conexão CC - Máx. Vcc",
+    "causasProvaveis": [
+      "verificar a tensão de alimentação da linha.",
+      "verificar o módulo de frenagem.",
+      "adaptar a tensão de alimentação do dispositivo (p0210).",
+      "adaptar o monitoramento de tensão de conexão CC (p1284)."
+    ]
+  },
+  {
+    "codigo": "F07405",
+    "causa": "Unidade: Redução da velocidade mínima de amortecimento cinético",
+    "causasProvaveis": [
+      "Verificar o limite de velocidade para o controlador mín_Vcc (amortecimento cinético) (p1257, p1297)."
+    ]
+  },
+  {
+    "codigo": "F07406",
+    "causa": "Unidade: Tempo máximo de amortecimento cinético excedido",
+    "causasProvaveis": [
+      "Verificar o limite de tempo para o controlador min_Vcc (amortecimento cinético) (p1255, p1295)."
+    ]
+  },
+  {
+    "codigo": "A07409",
+    "causa": "Unidade: Controle U/f, controlador de limite de corrente ativo",
+    "causasProvaveis": [
+      "aumentar o limite de corrente (p0640).",
+      "reduzir a carga.",
+      "desacelerar a subida da rampa para a velocidade do ponto de ajuste."
+    ]
+  },
+  {
+    "codigo": "F07410",
+    "causa": "Unidade: Saída do controlador de corrente limitada",
+    "causasProvaveis": [
+      "conectar o motor ou verificar o contator do motor.",
+      "verificar a parametrização do motor e o tipo de conexão (star-delta).",
+      "verificar a tensão de conexão CC (r0070).",
+      "verificar a unidade de alimentação.",
+      "ativar a função \"reinicialização rápida\" (p1200)."
+    ]
+  },
+  {
+    "codigo": "F07411",
+    "causa": "Unidade: Ponto de ajuste de fluxo não atingido ao gerar um estímulo",
+    "causasProvaveis": [
+      "corrigir os dados do motor. Realizar a identificação de dados do motor e a medição de rotação.",
+      "verificar a configuração do motor.",
+      "corrigir os limites de corrente (p0640).",
+      "reduzir a carga do motor de indução.",
+      "se necessário, utilizar uma unidade de alimentação maior.",
+      "verificar o cabo de alimentação do motor.",
+      "verificar a unidade de alimentação.",
+      "aumentar p0346."
+    ]
+  },
+  {
+    "codigo": "A07416",
+    "causa": "Unidade: Configuração de controlador de fluxo",
+    "causasProvaveis": [
+      "Desativar a partida suave (p1401.0=0).",
+      "Desativar a magnetização rápida (p1401.6=0).",
+      "Desenergizar o controle de formação de fluxo (p1401.2=0).",
+      "Reparametrizar a identificação de Rs (p0621=0, 1)."
+    ]
+  },
+  {
+    "codigo": "F07426",
+    "causa": "Valor real limitado do controlador de tecnologia",
+    "causasProvaveis": [
+      "adaptar os limites para o nível de sinal (p2267, p2268).",
+      "verificar a normalização do valor real (p059, p0596)."
+    ]
+  },
+  {
+    "codigo": "A07428",
+    "causa": "Erro de parametrização do controlador de tecnologia",
+    "causasProvaveis": [
+      "Definir o limite de saída em p2291 como mais alto que em p2292."
+    ]
+  },
+  {
+    "codigo": "F07435",
+    "causa": "Unidade: Definição do gerador funcional da rampa para o controle vetorial sem sensor",
+    "causasProvaveis": [
+      "desativar o comando de retenção para o gerador funcional da rampa (p1141).",
+      "suprimir a falha (p2101, p2119). Isso será necessário se o gerador funcional da rampa for retido usando o jogging e o ponto de ajuste de velocidade for simultaneamente inibido (r0898.6)."
+    ]
+  },
+  {
+    "codigo": "A07444",
+    "causa": "A auto-regulagem de PID está ativada",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "F07445",
+    "causa": "Auto-regulagem de PID cancelada",
+    "causasProvaveis": [
+      "aumentar o deslocamento.",
+      "verificar a configuração do sistema."
+    ]
+  },
+  {
+    "codigo": "A07530",
+    "causa": "Unidade: Conjunto de Dados da Unidade (DDS) ausente",
+    "causasProvaveis": [
+      "selecionar o conjunto de dados da unidade existente.",
+      "configurar conjuntos de dados da unidade adicionais."
+    ]
+  },
+  {
+    "codigo": "A07531",
+    "causa": "Unidade: Conjunto de Dados de Comando (CDS) ausente",
+    "causasProvaveis": [
+      "selecionar o conjunto de dados de comando existente.",
+      "configurar conjuntos de dados de comando adicionais."
+    ]
+  },
+  {
+    "codigo": "F07563",
+    "causa": "Codificador da unidade: Configuração XIST1_ERW incorreta",
+    "causasProvaveis": [
+      "atualizar a versão de firmware do Módulo do Sensor.",
+      "verificar o modo (p4652=1 ou 3 exige a propriedade r0459.13=1)."
+    ]
+  },
+  {
+    "codigo": "F07754",
+    "causa": "Unidade: Configuração incorreta da válvula de fechamento",
+    "causasProvaveis": [
+      "Verificar a ativação da Segurança Integrada e a válvula de fechamento (p9601/p9801, p0218.0).",
+      "Definir o tempo de inibição de uma variável manipulada como maior que o tempo de espera para avaliar os contatos do sinal de retorno ao ligar a válvula de fechamento (p0230 > p9625[0]/p9825[0]).",
+      "Definir o tempo de inibição de uma variável manipulada como maior que o tempo de espera para avaliar os contatos do sinal de retorno ao desligar a válvula de fechamento (p0230 > p9625[1]/p9825[1])."
+    ]
+  },
+  {
+    "codigo": "F07800",
+    "causa": "Unidade: Não há uma unidade de alimentação presente",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "verificar a unidade de alimentação e substitui-la se necessário.",
+      "verificar a Unidade de Controle e, se necessário, substitui-la.",
+      "depois de corrigir a topologia, os parâmetros devem ser novamente descarregados usando o software de comissionamento."
+    ]
+  },
+  {
+    "codigo": "F07801",
+    "causa": "Unidade: Sobrecorrente do motor",
+    "causasProvaveis": [
+      "verificar os limites de corrente (p0640).",
+      "controle de vetor: Verificar o controlador de corrente (p1715, p1717).",
+      "Controle de U/f: Verificar o controlador de limite de corrente (p1340.... p1346).",
+      "aumentar a subida de rampa (p1120) ou reduzir a carga.",
+      "verificar o motor e os cabos do motor em busca de curto-circuitos e falha do sistema de aterramento.",
+      "verificar o motor quanto à configuração star-delta e parametrização nominal da placa.",
+      "verificar a combinação de unidade de alimentação e motor.",
+      "Selecionar a função \"reinicialização rápida\" (p1200) caso tenha alternado para motor em rotação."
+    ]
+  },
+  {
+    "codigo": "F07802",
+    "causa": "Unidade: O avanço ou a unidade de alimentação não está pronta",
+    "causasProvaveis": [
+      "aumentar o tempo de monitoramento (p0857).",
+      "verificar se há uma conexão de tensão CC. Verificar o barramento de conexão CC. Habilitar o avanço.",
+      "substituir o avanço associado ou a unidade do componente sinalizador.",
+      "verificar configuração da tensão de alimentação da linha (p0210)."
+    ]
+  },
+  {
+    "codigo": "A07805",
+    "causa": "Unidade: Sobrecarga 12t da unidade de alimentação",
+    "causasProvaveis": [
+      "reduzir a carga contínua.",
+      "adaptar o ciclo de carga.",
+      "verificar a atribuição das correntes nominais do motor e da unidade de alimentação."
+    ]
+  },
+  {
+    "codigo": "F07806",
+    "causa": "Unidade: Limite de potência regenerativa excedido (F3E)",
+    "causasProvaveis": [
+      "aumentar a descida de rampa.",
+      "reduzir a carga de acionamento.",
+      "utilizar uma unidade de alimentação com uma capacidade maior de retorno regenerativo.",
+      "para o controle de vetor, o limite de potência regenerativa em p1531 pode ser reduzido de modo que a falha não seja mais acionada."
+    ]
+  },
+  {
+    "codigo": "F07807",
+    "causa": "Unidade: Detecção de curto-circuito/falha do sistema de aterramento",
+    "causasProvaveis": [
+      "verificar a conexão do conversor no lado do motor quanto a um curto-circuito entre fases.",
+      "excluir os cabos da linha e do motor trocados.",
+      "verificar uma falha do sistema de aterramento.",
+      "não habilitar os pulsos ao se conectar a um motor em rotação sem a função \"Reinicialização rápida\" ativada (p1200).",
+      "aumentar o tempo de desenergização (p0347).",
+      "aumentar o tempo de retardo da supressão de pulsos (p1228) para garantir uma paralisação.",
+      "se necessário, desativar o monitoramento (p1901)."
+    ]
+  },
+  {
+    "codigo": "F07810",
+    "causa": "Unidade: EEPROM da unidade de alimentação sem dados nominais",
+    "causasProvaveis": [
+      "Substituir a unidade de alimentação ou informar ao Serviço de Atendimento ao Cliente da Siemens."
+    ]
+  },
+  {
+    "codigo": "A07850",
+    "causa": "Alarme externo 1",
+    "causasProvaveis": [
+      "Eliminar as causas desse alarme."
+    ]
+  },
+  {
+    "codigo": "A07851",
+    "causa": "Alarme externo 2",
+    "causasProvaveis": [
+      "Eliminar as causas desse alarme."
+    ]
+  },
+  {
+    "codigo": "A07852",
+    "causa": "Alarme externo 3",
+    "causasProvaveis": [
+      "Eliminar as causas desse alarme."
+    ]
+  },
+  {
+    "codigo": "F07860",
+    "causa": "Falha externa 1",
+    "causasProvaveis": [
+      "eliminar as causas dessa falha.",
+      "reconhecer a falha."
+    ]
+  },
+  {
+    "codigo": "F07861",
+    "causa": "Falha externa 2",
+    "causasProvaveis": [
+      "eliminar as causas dessa falha.",
+      "reconhecer a falha."
+    ]
+  },
+  {
+    "codigo": "F07862",
+    "causa": "Falha externa 3",
+    "causasProvaveis": [
+      "eliminar as causas dessa falha.",
+      "reconhecer a falha."
+    ]
+  },
+  {
+    "codigo": "A07891",
+    "causa": "Unidade: Bloqueio da bomba/ventilador de monitoramento de carga",
+    "causasProvaveis": [
+      "verificar se a bomba/ventilador está bloqueado e, se estiver, solucionar o problema.",
+      "verificar se o ventilador pode se mover livremente e, se necessário, solucionar o problema.",
+      "adaptar a parametrização correspondente à carga (p2165, p2168)."
+    ]
+  },
+  {
+    "codigo": "A07892",
+    "causa": "Unidade: Condição sem carga da bomba/ventilador de monitoramento de carga",
+    "causasProvaveis": [
+      "para uma bomba, verificar o meio que será bombeado e, se necessário, fornecer o meio.",
+      "para um ventilador, verificar a correia e, se necessário, substituí-la.",
+      "se necessário, aumentar o limite de torque de detecção (p2191)."
+    ]
+  },
+  {
+    "codigo": "A07893",
+    "causa": "Unidade: Vazamento da bomba de monitoramento de carga",
+    "causasProvaveis": [
+      "eliminar o vazamento no circuito da bomba.",
+      "para desarmes incômodos, reduzir os limites de torque da característica de vazamento (p2186, p2188, p2190)."
+    ]
+  },
+  {
+    "codigo": "F07894",
+    "causa": "Unidade: Bloqueio da bomba/ventilador de monitoramento de carga",
+    "causasProvaveis": [
+      "verificar se a bomba/ventilador está bloqueado e, se estiver, solucionar o problema.",
+      "verificar se o ventilador pode se mover livremente e, se necessário, solucionar o problema.",
+      "adaptar a parametrização correspondente à carga (p2165, p2168)."
+    ]
+  },
+  {
+    "codigo": "F07895",
+    "causa": "Unidade: Condição sem carga da bomba/ventilador de monitoramento de carga",
+    "causasProvaveis": [
+      "para uma bomba, verificar o meio que será bombeado e, se necessário, fornecer o meio.",
+      "para um ventilador, verificar a correia e, se necessário, substitui-la.",
+      "se necessário, aumentar o limite de torque de detecção (p2191)."
+    ]
+  },
+  {
+    "codigo": "F07896",
+    "causa": "Unidade: Vazamento da bomba de monitoramento de carga",
+    "causasProvaveis": [
+      "eliminar o vazamento no circuito da bomba.",
+      "para desarmes incômodos, reduzir os limites de torque da característica de vazamento (p2186, p2188, p2190)."
+    ]
+  },
+  {
+    "codigo": "F07900",
+    "causa": "Unidade: Motor bloqueado",
+    "causasProvaveis": [
+      "verificar se o motor pode se mover livremente.",
+      "verificar o limite de torque efetivo (r1538, r1539).",
+      "verificar o parâmetro, mensagem \"Motor bloqueado\" e, se necessário, corrigi-los -(p2175, p2177).",
+      "verificar a direção de rotação permitida pelos sinais para uma reinicialização rápida do motor (p1110, p1111).",
+      "para o controle U/f: verificar os limites de corrente e os tempos de aceleração (p0640, p1120)."
+    ]
+  },
+  {
+    "codigo": "F07901",
+    "causa": "Unidade: Velocidade excessiva do motor",
+    "causasProvaveis": [
+      "O seguinte aplica-se para uma direção de rotação positiva: verificar r1084 e, se necessário, corrigir p1082, Cl:p1085 e p2162.",
+      "O seguinte aplica-se para uma direção de rotação negativa: verificar r1087 e, se necessário, corrigir p1082, Cl:p1088 e p2162.",
+      "Ativar o pré-controle do controlador de limite de velocidade (p1401.7 = 1).",
+      "Aumentar a histerese para o sinal de velocidade excessiva p2162."
+    ]
+  },
+  {
+    "codigo": "F07902",
+    "causa": "Unidade: Motor parado",
+    "causasProvaveis": [
+      "verificar se o motor pára exclusivamente devido à carga no modo controlado ou quando o ponto de ajuste de velocidade permanece zero. Se sim, aumentar o ponto de ajuste da corrente usando p1610.",
+      "se o tempo de estimulação do motor (p0346) foi significativamente reduzido e o motor pára quando é ligado e funciona de imediato, p0346 deverá ser novamente aumentado.",
+      "verificar se uma falha na fase de linha está afetando a unidade de alimentação PM230, PM250, PM260.",
+      "verificar se os cabos do motor estão desconectados (consultar A07929).",
+      "se não houver uma falha, então a tolerância às falhas (p1745) ou o tempo de retardo (p2178) poderá ser aumentado.",
+      "verificar os limites de corrente (p0640, r0067, r0289). Se os limites de corrente forem muito baixos, então a unidade não poderá ser magnetizada.",
+      "se ocorrer a falha com um valor de falha 2 quando o motor acelerar muito rapidamente até a faixa de enfraquecimento do campo, o desvio entre o ponto de ajuste de fluxo e o valor real de fluxo poderá ser reduzido ao reduzir p1596 ou p1553."
+    ]
+  },
+  {
+    "codigo": "A07903",
+    "causa": "Unidade: Desvio de velocidade do motor",
+    "causasProvaveis": [
+      "aumentar p2163 e/ou p2166.",
+      "aumentar os limites de torque/corrente/potência.",
+      "para o controle de torque de loop fechado: O ponto de ajuste de velocidade deve rastrear o valor real de velocidade.",
+      "desativar um alarme com p2149.0 = 0."
+    ]
+  },
+  {
+    "codigo": "A07910",
+    "causa": "Unidade: Temperatura excessiva do motor",
+    "causasProvaveis": [
+      "verificar a carga do motor.",
+      "verificar a temperatura ambiente do motor.",
+      "verificar KTY84/PT1000.",
+      "verificar as temperaturas excessivas do modelo 2 de temperatura do motor (p0626 ... p0628)."
+    ]
+  },
+  {
+    "codigo": "A07920",
+    "causa": "Unidade: Torque/velocidade muito baixa",
+    "causasProvaveis": [
+      "verificar a conexão entre o motor e a carga.",
+      "adaptar a parametrização correspondente à carga."
+    ]
+  },
+  {
+    "codigo": "A07921",
+    "causa": "Unidade: Torque/velocidade muito alta",
+    "causasProvaveis": [
+      "verificar a conexão entre o motor e a carga.",
+      "adaptar a parametrização correspondente à carga."
+    ]
+  },
+  {
+    "codigo": "A07922",
+    "causa": "Unidade: Torque/velocidade fora de tolerância",
+    "causasProvaveis": [
+      "verificar a conexão entre o motor e a carga.",
+      "adaptar a parametrização correspondente à carga."
+    ]
+  },
+  {
+    "codigo": "F07923",
+    "causa": "Unidade: Torque/velocidade muito baixa",
+    "causasProvaveis": [
+      "verificar a conexão entre o motor e a carga.",
+      "adaptar a parametrização correspondente à carga."
+    ]
+  },
+  {
+    "codigo": "F07924",
+    "causa": "Unidade: Torque/velocidade muito alta",
+    "causasProvaveis": [
+      "verificar a conexão entre o motor e a carga.",
+      "adaptar a parametrização correspondente à carga."
+    ]
+  },
+  {
+    "codigo": "F07925",
+    "causa": "Unidade: Torque/velocidade fora de tolerância",
+    "causasProvaveis": [
+      "verificar a conexão entre o motor e a carga.",
+      "adaptar a parametrização correspondente à carga."
+    ]
+  },
+  {
+    "codigo": "A07926",
+    "causa": "Unidade: Parâmetro inválido de curva do envelope",
+    "causasProvaveis": [
+      "definir os parâmetros para o monitoramento de carga de acordo com as regras aplicáveis.",
+      "se necessário, desativar o monitoramento de carga (p2181=0, p2193=0)."
+    ]
+  },
+  {
+    "codigo": "A07927",
+    "causa": "Frenagem DC ativa",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "A07929",
+    "causa": "Unidade: Nenhum motor detectado",
+    "causasProvaveis": [
+      "verificar os cabos do alimentador do motor.",
+      "reduzir o valor limite (p2179) como, por exemplo, para motores sincronos.",
+      "verificar o reforço de tensão do controle de U/f (p1310).",
+      "realizar uma medição estacionária para definir a resistência do estator (p0350)."
+    ]
+  },
+  {
+    "codigo": "F07936",
+    "causa": "Unidade: falha de carga",
+    "causasProvaveis": [
+      "verificar o sensor.",
+      "se necessário, desativar o monitoramento de carga (p2193)."
+    ]
+  },
+  {
+    "codigo": "F07950",
+    "causa": "Parâmetro incorreto do motor",
+    "causasProvaveis": [
+      "Comparar os dados do motor com os dados nominais da placa e, se necessário, corrigílos-."
+    ]
+  },
+  {
+    "codigo": "A07960",
+    "causa": "Unidade: Característica de atrito incorreta",
+    "causasProvaveis": [
+      "Atender às condições para a característica de atrito.",
+      "Verificar o limite superior do torque efetivo (por exemplo, na faixa de enfraquecimento do campo).",
+      "Verificar o limite inferior do torque efetivo (por exemplo, na faixa de enfraquecimento do campo).",
+      "Atender às condições para definir os parâmetros da característica de atrito.",
+      "Recalcular os limites tecnológicos e os valores limites, dependendo disso, ao selecionar p0340=5."
+    ]
+  },
+  {
+    "codigo": "A07961",
+    "causa": "Unidade: Registro da característica de atrito ativo",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "F07963",
+    "causa": "Unidade: Registro da característica de atrito interrompido",
+    "causasProvaveis": [
+      "Atender às condições para registrar a característica de atrito.",
+      "estabelecer sinais de ativação ausentes.",
+      "Selecionar o valor mais alto de velocidade a ser abordado (p3829) como menor ou igual à velocidade máxima (p1082, r1084, r1087).",
+      "Recalcular os pontos de velocidade juntamente com a característica de atrito (p0340=5).",
+      "Selecionar o registro da característica de atrito, direção positiva (p3845).",
+      "definir o modo de controle (p1300) no controle de velocidade de loop fechado (p1300=20, 21).",
+      "Para um controle de velocidade de loop fechado sem codificador (p1300=20), selecionar o valor mais baixo de velocidade a ser abordado (p3820) que seja maior que a velocidade de comutação da operação controlada de loop aberto (p1755).",
+      "Sair da rotina de identificação de dados do motor (p1910).",
+      "Sair da rotina de otimização do controlador de velocidade (p1960).",
+      "verificar a carga na velocidade p382x.",
+      "verificar o sinal de velocidade (r0063) quanto à oscilação na velocidade p382x. Verificar as configurações do controlador de velocidade, se aplicável.",
+      "Tornar a característica de atrito livre de erros (p3820... p3829, p3830... p3839, p3840).",
+      "Ativar o registro da característica de atrito (p3845)."
+    ]
+  },
+  {
+    "codigo": "F07967",
+    "causa": "Unidade: Identificação incorreta da posição dos pólos",
+    "causasProvaveis": [
+      "Executar um POWER ON."
+    ]
+  },
+  {
+    "codigo": "F07968",
+    "causa": "Unidade: Medição Lq-Ld incorreta",
+    "causasProvaveis": [
+      "Verificar se o motor está corretamente conectado.",
+      "Substituir a Unidade de Alimentação envolvida.",
+      "Desativar a técnica (p1909).",
+      "Verificar se os dados do motor foram corretamente inseridos."
+    ]
+  },
+  {
+    "codigo": "F07969",
+    "causa": "Unidade: Identificação incorreta da posição dos pólos",
+    "causasProvaveis": [
+      "Verificar se o motor está corretamente conectado.",
+      "Verificar se os dados do motor foram corretamente inseridos.",
+      "Substituir a Unidade de Alimentação envolvida.",
+      "Fazer com que o motor volte à condição sem carga.",
+      "Aumentar o valor para p0325 ou p0329.",
+      "Reduzir o valor para p0325 ou p0329.",
+      "O motor não é suficientemente anisotrópico; mudar a técnica (p1980=1, 10).",
+      "Mudar a técnica (p1980).",
+      "Repetir a técnica.",
+      "Saturação insuficiente; mudar a técnica (p1980=10).",
+      "Antes de executar uma rotina de identificação de posição dos pólos, verificar se o eixo do motor está absolutamente estacionário (velocidade zero)."
+    ]
+  },
+  {
+    "codigo": "A07980",
+    "causa": "Unidade: Medição de rotação ativada",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "A07981",
+    "causa": "Unidade: Sinais de ativação para a medição de rotação ausentes",
+    "causasProvaveis": [
+      "identificar falhas presentes.",
+      "estabelecer sinais de ativação ausentes."
+    ]
+  },
+  {
+    "codigo": "F07983",
+    "causa": "Unidade: Característica de saturação da medição de rotação",
+    "causasProvaveis": [
+      "Desativar a medição de rotação (p1960), inserir o momento de inércia p0342, recalcular o controlador de velocidade p0340 = 4 e repetir a medição.",
+      "aumentar a velocidade de medição (p1961) e repetir a medição.",
+      "verificar os parâmetros do motor (dados da placa de classificação). Após a alteração: Calcular p0340=3.",
+      "verificar o momento de inércia (p0341, p0342). Após a alteração: Calcular p0340 = 3.",
+      "executar uma rotina de identificação de dados do motor (p1910).",
+      "se necessário, reduzir o fator dinâmico (p1967<25%).",
+      "o ponto de ajuste de velocidade (p1961) está muito alto. Reduzir a velocidade.",
+      "adaptar o ponto de ajuste de velocidade (p1961) ou o limite mínimo (p1080).",
+      "adaptar o ponto de ajuste de velocidade (p1961) ou as larguras de banda de supressão (salto) (p1091... p1094, p1101).",
+      "adaptar o ponto de ajuste de velocidade (p1961) ou o limite máximo (p1082, p1083 e p1086).",
+      "a medição foi realizada em um ponto operacional em que o torque de carga está muito alto. Selecionar um ponto operacional mais adequado mudando o ponto de ajuste de velocidade (p1961) ou reduzindo o torque de carga."
+    ]
+  },
+  {
+    "codigo": "F07984",
+    "causa": "Unidade: Otimização do controlador de velocidade, momento de inércia",
+    "causasProvaveis": [
+      "verificar os parâmetros do motor (dados da placa de classificação). Após a alteração: Calcular p0340 = 3.",
+      "verificar o momento de inércia (p0341, p0342). Após a alteração: Calcular p0340 = 3.",
+      "executar uma rotina de identificação de dados do motor (p1910).",
+      "se necessário, reduzir o fator dinâmico (p1967 < 25%).",
+      "adaptar o ponto de ajuste de velocidade (p1965) ou adaptar o limite mínimo (p1080).",
+      "adaptar o ponto de ajuste de velocidade (p1965) ou as larguras de banda de supressão (salto) (p1091 ... p1094, p1101).",
+      "adaptar o ponto de ajuste de velocidade (p1965) ou o limite máximo (p1082, p1083 e p1086).",
+      "Desativar a medição de rotação (p1960), inserir o momento de inércia p0342, recalcular o controlador de velocidade p0340=4 e repetir a medição.",
+      "reduzir o momento de inércia do motor p0341 (por exemplo, por um fator de 0,2) ou aumentar (por exemplo, por um fator de 5) e repetir a medição."
+    ]
+  },
+  {
+    "codigo": "F07985",
+    "causa": "Unidade: Otimização do controlador de velocidade (teste de oscilação)",
+    "causasProvaveis": [
+      "verificar os parâmetros do motor (dados da placa de classificação). Após a alteração: Calcular p0340 = 3.",
+      "verificar o momento de inércia (p0341, p0342). Após a alteração: Calcular p0340 = 3.",
+      "executar uma rotina de identificação de dados do motor (p1910).",
+      "se necessário, reduzir o fator dinâmico (p1967 < 25%).",
+      "adaptar o ponto de ajuste de velocidade (p1965) ou adaptar o limite mínimo (p1080).",
+      "adaptar o ponto de ajuste de velocidade (p1965) ou as larguras de banda de supressão (salto) (p1091... p1094, p1101).",
+      "adaptar o ponto de ajuste de velocidade (p1965) ou o limite máximo (p1082, p1083 e p1086).",
+      "aumentar os limites de torque (por exemplo, p1520, p1521).",
+      "reduzir o fator dinâmico (p1967).",
+      "desativar o teste de vibração (p1959.4 = 0) e repetir a medição de rotação."
+    ]
+  },
+  {
+    "codigo": "F07986",
+    "causa": "Unidade: Medição de rotação, gerador funcional da rampa",
+    "causasProvaveis": [
+      "Habilitar a direção (p1110 ou p1111)."
+    ]
+  },
+  {
+    "codigo": "F07988",
+    "causa": "Unidade: Medição de rotação, nenhuma configuração selecionada",
+    "causasProvaveis": [
+      "Selecionar pelo menos uma função para otimização automática do controlador de velocidade (p1959)."
+    ]
+  },
+  {
+    "codigo": "F07990",
+    "causa": "Unidade: Identificação incorreta de dados do motor",
+    "causasProvaveis": [
+      "verificar se os dados do motor foram corretamente inseridos em p0300, p0304 ... p0311.",
+      "verificar se há uma relação adequada entre a potência nominal do motor e aquela da unidade de alimentação.",
+      "verificar o tipo de conexão (star-delta).",
+      "verificar se a indutância em p0233 está corretamente definida.",
+      "Desativar o monitoramento de oscilação (p1909.7=1).",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar o motor.",
+      "verificar o CT."
+    ]
+  },
+  {
+    "codigo": "A07991",
+    "causa": "Unidade: Identificação de dados do motor ativa",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "A07994",
+    "causa": "Unidade: identificação de dados do motor não realizada",
+    "causasProvaveis": [
+      "Realizar a identificação de dados do motor (consultar p1900).",
+      "se necessário, parametrizar o \"controle U/f\" (p1300<20).",
+      "alterar para um conjunto de dados da unidade em que as condições não se aplicam."
+    ]
+  },
+  {
+    "codigo": "F08010",
+    "causa": "CU: Conversor analógico-digital",
+    "causasProvaveis": [
+      "verificar a fonte de alimentação.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F08501",
+    "causa": "PROFINET: Tempo esgotado do ponto de ajuste",
+    "causasProvaveis": [
+      "Restaurar a conexão de barramento e definir o controlador para EXECUTAR.",
+      "se o erro repetir, verificar o tempo de atualização definido na configuração do barramento (Config. de HW)."
+    ]
+  },
+  {
+    "codigo": "F08502",
+    "causa": "PROFINET: Tempo de monitoramento de sinal de vida expirou",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "A08511",
+    "causa": "PROFINET: Dados de configuração recebidos inválidos",
+    "causasProvaveis": [
+      "Verificar os dados de configuração recebidos.",
+      "Para o valor de alarme = 2: verificar o número de palavras de dados para saída e entrada.",
+      "Para o valor de alarme = 501: verificar o endereço de PROFIsafe definido (p9610).",
+      "Para o valor de alarme = 502: Verificar a ativação de F-DI (p9501.30)."
+    ]
+  },
+  {
+    "codigo": "A08526",
+    "causa": "PROFINET: Nenhuma conexão cíclica",
+    "causasProvaveis": [
+      "Estabelecer a conexão cíclica e ativar o controlador com uma operação cíclica.",
+      "Verificar os parâmetros \"Nome da estação\" e \"IP da estação\" (r61000, r61001)."
+    ]
+  },
+  {
+    "codigo": "A08564",
+    "causa": "PN/COMM BOARD: erro de sintaxe no arquivo de configuração",
+    "causasProvaveis": [
+      "corrigir a configuração da interface de PROFINET (p8920 e o que segue) e ativá-la (p8925=2).",
+      "reinicializar a estação (por exemplo, usando o software de comissionamento STARTER)"
+    ]
+  },
+  {
+    "codigo": "A08565",
+    "causa": "PROFINET: Erro de consistência afetando parâmetros ajustáveis",
+    "causasProvaveis": [
+      "verificar a configuração de interface necessária (p8920 e seguinte), corrigir, se necessário, e ativar (p8925).",
+      "Reconfigurar a estação no formulário de tela \"Edit Ethernet node\" (Editar nó de Ethernet) (por exemplo, com um software de comissionamento STARTER)."
+    ]
+  },
+  {
+    "codigo": "F08700",
+    "causa": "CAN: Erro de comunicação",
+    "causasProvaveis": [
+      "verificar o cabo do barramento",
+      "verificar a taxa de baud (p8622).",
+      "verificar o tempo dos bits (p8623).",
+      "verificar o controle mestre.",
+      "O controlador CAN deve ser manualmente reiniciado com p8608 = 1 após a causa da falha ter sido solucionada!"
+    ]
+  },
+  {
+    "codigo": "F08701",
+    "causa": "CAN: Mudança de estado NMT",
+    "causasProvaveis": [
+      "Não é necessária.",
+      "Reconhecer a falha e continuar a operação."
+    ]
+  },
+  {
+    "codigo": "F08702",
+    "causa": "CAN: Tempo esgotado de RPDO",
+    "causasProvaveis": [
+      "verificar o cabo do barramento",
+      "verificar o controle mestre.",
+      "se necessário, aumentar o tempo de monitoramento (p8699)."
+    ]
+  },
+  {
+    "codigo": "A08751",
+    "causa": "CAN: Perda de telegrama",
+    "causasProvaveis": [
+      "Reduzir os tempos de ciclo das mensagens recebidas."
+    ]
+  },
+  {
+    "codigo": "A08752",
+    "causa": "CAN: Contador de erros para erro passivo excedido",
+    "causasProvaveis": [
+      "verificar o cabo do barramento",
+      "definir uma taxa de baud mais alta (p8622).",
+      "verificar o tempo dos bits e, se necessário, otimizá-lo (p8623)."
+    ]
+  },
+  {
+    "codigo": "A08753",
+    "causa": "CAN: Sobrefluxo da memória buffer de mensagens",
+    "causasProvaveis": [
+      "verificar o cabo do barramento.",
+      "definir uma taxa de baud mais alta (p8622).",
+      "verificar o tempo dos bits e, se necessário, otimizá-lo (p8623).",
+      "reduzir os tempos de ciclo das mensagens recebidas de SDO.",
+      "solicitação de SDO a partir do controle mestre apenas depois do retorno de SDO para uma solicitação prévia de SDO."
+    ]
+  },
+  {
+    "codigo": "A08754",
+    "causa": "CAN: Modo de comunicação incorreto",
+    "causasProvaveis": [
+      "Alterar o modo \"pré-operacional\" ou \"parado\"."
+    ]
+  },
+  {
+    "codigo": "A08755",
+    "causa": "CAN: Objeto não pode ser mapeado",
+    "causasProvaveis": [
+      "Utilizar um objeto CANopen destinado ao mapeamento de PDO ou inserir 0."
+    ]
+  },
+  {
+    "codigo": "A08756",
+    "causa": "CAN: Número de bytes mapeados excedido",
+    "causasProvaveis": [
+      "Mapear alguns objetos ou objetos com um tipo de dado menor."
+    ]
+  },
+  {
+    "codigo": "A08757",
+    "causa": "CAN: COB-ID definido inválido",
+    "causasProvaveis": [
+      "Definir COB-ID como inválido."
+    ]
+  },
+  {
+    "codigo": "A08759",
+    "causa": "CAN: PDO COB-ID já disponível",
+    "causasProvaveis": [
+      "Selecionar outro PDO COB-ID."
+    ]
+  },
+  {
+    "codigo": "A08760",
+    "causa": "CAN: tamanho máximo de IF PZD excedido",
+    "causasProvaveis": [
+      "Mapear alguns dados de processo em PDO.",
+      "Aplicar uma das seguintes opções para excluir o alarme:",
+      "- POWER ON (desligar/ligar).",
+      "- executar uma reinicialização a quente (p0009=30, p0976=2).",
+      "- executar o nó de reset do comando CANopen NMT.",
+      "- alterar o estado de CANopen NMT.",
+      "- excluir a memória buffer de alarme [0...7] (p2111 = 0)."
+    ]
+  },
+  {
+    "codigo": "A08800",
+    "causa": "Energia PROFlenergy - modo de economia ativo",
+    "causasProvaveis": [
+      "O alarme é automaticamente eliminado ao sair do modo de economia de energia."
+    ]
+  },
+  {
+    "codigo": "F13009",
+    "causa": "Aplicação de OA de licenciamento não licenciada",
+    "causasProvaveis": [
+      "inserir e ativar a chave de licença para aplicações de OA sob licença (p9920, p9921).",
+      "se necessário, desativar aplicações de OA não licenciadas (p4956)."
+    ]
+  },
+  {
+    "codigo": "F13100",
+    "causa": "Proteção de know-how: Erro de proteção contra cópia",
+    "causasProvaveis": [
+      "inserir o cartão de memória correto e executar um POWER ON.",
+      "entrar em contato com o OEM responsável.",
+      "Desativar a proteção contra cópia (p7765) e reconhecer a falha (p3981).",
+      "Desativar a proteção de know-how (p7766... p7768) e reconhecer a falha (p3981)."
+    ]
+  },
+  {
+    "codigo": "F13101",
+    "causa": "Proteção de know-how: A proteção contra cópia não pode ser ativada",
+    "causasProvaveis": [
+      "inserir um cartão de memória válido.",
+      "Tentar reativar a proteção contra cópia (p7765)."
+    ]
+  },
+  {
+    "codigo": "F13102",
+    "causa": "Proteção de know-how: Erro de consistência dos dados protegidos",
+    "causasProvaveis": [
+      "Substituir o projeto no cartão de memória ou substituir os arquivos de projeto para download do cartão de memória.",
+      "Restaurar a configuração de fábrica e fazer um novo download."
+    ]
+  },
+  {
+    "codigo": "F30001",
+    "causa": "Unidade de alimentação: Sobrecorrente",
+    "causasProvaveis": [
+      "verificar os dados do motor - se necessário, realizar um comissionamento.",
+      "verificar a configuração de circuito do motor (star/delta).",
+      "Operação de U/f: Aumentar a subida de rampa.",
+      "Operação de U/f: Verificar a atribuição das correntes nominais do motor e da unidade de alimentação.",
+      "verificar a qualidade de alimentação da linha.",
+      "reduzir a carga do motor.",
+      "corrigir a conexão do reator de linha.",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar os cabos de alimentação em busca de curto-circuitos ou falha do sistema de aterramento.",
+      "verificar o comprimento dos cabos de alimentação.",
+      "substituir a Unidade de Alimentação.",
+      "verificar as fases de alimentação da linha."
+    ]
+  },
+  {
+    "codigo": "F30002",
+    "causa": "Unidade de alimentação: Sobretensão da conexão CC",
+    "causasProvaveis": [
+      "aumentar o tempo de descida da rampa (p1121).",
+      "ajuste os tempos de arredondamento (p1130, p1136).",
+      "Ativar o controlador de tensão de conexão CC (p1240, p1280).",
+      "adaptar a resposta dinâmica do controlador de tensão de conexão CC (p1243, p1247, p1283, p1287).",
+      "verificar a alimentação da linha e a tensão de conexão CC. p0210 definido o mais baixo possível (consultar também A07401, p1294 = 0).",
+      "verificar e corrigir a atribuição de fase na unidade de alimentação.",
+      "verificar as fases de alimentação da linha."
+    ]
+  },
+  {
+    "codigo": "F30003",
+    "causa": "Unidade de alimentação: Subtensão da conexão CC",
+    "causasProvaveis": [
+      "verificar a tensão de alimentação da linha",
+      "verificar as fases de alimentação da linha."
+    ]
+  },
+  {
+    "codigo": "F30004",
+    "causa": "Unidade de alimentação: Temperatura excessiva do dissipador de calor no conversor de CA",
+    "causasProvaveis": [
+      "verificar se o ventilador está funcionando.",
+      "verificar os elementos do ventilador.",
+      "verificar se a temperatura ambiente está na faixa permitida.",
+      "verificar a carga do motor.",
+      "reduzir a frequência de pulsos caso esteja mais alta que a frequência nominal de pulsos."
+    ]
+  },
+  {
+    "codigo": "F30005",
+    "causa": "Unidade de alimentação: Sobrecarga 12t",
+    "causasProvaveis": [
+      "reduzir a carga contínua.",
+      "adaptar o ciclo de carga.",
+      "verificar as correntes nominais do motor e da unidade de alimentação.",
+      "reduzir o limite de corrente (p0640).",
+      "durante uma operação com uma característica de U/f: reduzir o tempo integral do controlador de limite de corrente (p1341)."
+    ]
+  },
+  {
+    "codigo": "F30011",
+    "causa": "Unidade de alimentação: Falha da fase de linha no circuito principal",
+    "causasProvaveis": [
+      "verificar os fusíveis do circuito principal.",
+      "verificar se uma carga monofásica está distorcendo as tensões de linha.",
+      "Diminuir a frequência ressonante com a indutância de linha ao utilizar um reator de linha upstream.",
+      "Amortecer a frequência ressonante com a indutância de linha ao mudar a compensação de tensão de conexão CC no software (consultar p1810) - ou aumentar a suavização (consultar p1806).",
+      "verificar os cabos do alimentador do motor."
+    ]
+  },
+  {
+    "codigo": "F30012",
+    "causa": "Unidade de alimentação: Ruptura do fio do sensor de temperatura do dissipador de calor",
+    "causasProvaveis": [
+      "Entrar em contato com o fabricante."
+    ]
+  },
+  {
+    "codigo": "F30013",
+    "causa": "Unidade de alimentação: Curto-circuito do sensor de temperatura do dissipador de calor",
+    "causasProvaveis": [
+      "Entrar em contato com o fabricante."
+    ]
+  },
+  {
+    "codigo": "F30015",
+    "causa": "Unidade de alimentação: Falha de fase no cabo do motor",
+    "causasProvaveis": [
+      "verificar os cabos do alimentador do motor.",
+      "aumentar o tempo de subida ou de descida da rampa (p1120) caso a unidade tenha parado no controle de U/f.",
+      "verificar as configurações do controlador de velocidade."
+    ]
+  },
+  {
+    "codigo": "A30016",
+    "causa": "Unidade de alimentação: Desligamento da alimentação de carga",
+    "causasProvaveis": [
+      "Em certas circunstâncias, a alimentação da linha CA não é ligada."
+    ]
+  },
+  {
+    "codigo": "F30017",
+    "causa": "Unidade de alimentação: O limite de corrente de hardware responde com muita frequência",
+    "causasProvaveis": [
+      "verificar os dados do motor.",
+      "verificar a configuração de circuito do motor (star/delta).",
+      "verificar a carga do motor.",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar os cabos de alimentação em busca de curto-circuitos ou falha do sistema de aterramento.",
+      "verificar o comprimento dos cabos de alimentação.",
+      "substituir a Unidade de Alimentação."
+    ]
+  },
+  {
+    "codigo": "F30021",
+    "causa": "Unidade de alimentação: Falha de aterramento",
+    "causasProvaveis": [
+      "verificar as conexões do cabo de alimentação.",
+      "verificar o motor.",
+      "verificar o CT.",
+      "verificar os cabos e os contatos da conexão de frenagem (um fio está possivelmente rompido).",
+      "verificar o resistor de frenagem."
+    ]
+  },
+  {
+    "codigo": "F30022",
+    "causa": "Unidade de alimentação: Monitoramento U_ce",
+    "causasProvaveis": [
+      "verificar o cabo de fibra óptica e, se necessário, substituílo-.",
+      "verificar a fonte de alimentação do módulo de portas IGBT (24 V).",
+      "verificar as conexões do cabo de alimentação.",
+      "selecionar o semicondutor com defeito e substituí-lo."
+    ]
+  },
+  {
+    "codigo": "F30024",
+    "causa": "Unidade de alimentação: Temperatura excessiva do modelo térmico",
+    "causasProvaveis": [
+      "adaptar o ciclo de carga.",
+      "verificar se o ventilador está funcionando.",
+      "verificar os elementos do ventilador.",
+      "verificar se a temperatura ambiente está na faixa permitida.",
+      "verificar a carga do motor.",
+      "reduzir a frequência de pulsos caso esteja mais alta que a frequência nominal de pulsos.",
+      "se a frenagem CC estiver ativa: reduzir a corrente de frenagem (p1232)."
+    ]
+  },
+  {
+    "codigo": "F30025",
+    "causa": "Unidade de alimentação: Temperatura excessiva do cavaco",
+    "causasProvaveis": [
+      "adaptar o ciclo de carga.",
+      "verificar se o ventilador está funcionando.",
+      "verificar os elementos do ventilador.",
+      "verificar se a temperatura ambiente está na faixa permitida.",
+      "verificar a carga do motor.",
+      "reduzir a frequência de pulsos caso esteja mais alta que a frequência nominal de pulsos."
+    ]
+  },
+  {
+    "codigo": "F30027",
+    "causa": "Unidade de alimentação: Monitoramento do tempo de pré-carga de conexão CC",
+    "causasProvaveis": [
+      "verificar a tensão de alimentação da linha nos terminais de entrada.",
+      "verificar configuração da tensão de alimentação da linha (p0210).",
+      "esperar até os resistores de pré-carga terem esfriado. Para esse fim, desconectar preferivelmente a unidade de avanço da alimentação da linha.",
+      "observar cuidadosamente a frequência de carga permitida (consultar o Manual do Equipamento apropriado).",
+      "verificar a capacitância da conexão CC e, se necessário, reduzi-la de acordo com a capacitância máxima de conexão CC permitida (consultar o Manual do Equipamento relevante).",
+      "verificar a conexão CC em busca de uma falha do sistema de aterramento ou um curto-circuito."
+    ]
+  },
+  {
+    "codigo": "A30030",
+    "causa": "Unidade de alimentação: Alarme de temperatura excessiva interna",
+    "causasProvaveis": [
+      "usar possivelmente um ventilador adicional.",
+      "verificar se a temperatura ambiente está na faixa permitida."
+    ]
+  },
+  {
+    "codigo": "A30031",
+    "causa": "Unidade de alimentação: Limite de corrente de hardware na fase U",
+    "causasProvaveis": [
+      "verificar os dados do motor e, se necessário, recalcular os parâmetros de controle (p0340=3). Como uma alternativa, executar uma identificação de dados do motor (p1910=1, p1960 = 1).",
+      "verificar a configuração de circuito do motor (star/delta).",
+      "verificar a carga do motor.",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar os cabos de alimentação em busca de curto-circuitos ou falha do sistema de aterramento.",
+      "verificar o comprimento dos cabos de alimentação."
+    ]
+  },
+  {
+    "codigo": "A30032",
+    "causa": "Unidade de alimentação: Limite de corrente de hardware na fase V",
+    "causasProvaveis": [
+      "Verificar os dados do motor e, se necessário, recalcular os parâmetros de controle (p0340=3). Como uma alternativa, executar uma identificação de dados do motor (p1910=1, p1960=1).",
+      "verificar a configuração de circuito do motor (star/delta).",
+      "verificar a carga do motor.",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar os cabos de alimentação em busca de curto-circuitos ou falha do sistema de aterramento.",
+      "verificar o comprimento dos cabos de alimentação."
+    ]
+  },
+  {
+    "codigo": "A30033",
+    "causa": "Unidade de alimentação: Limite de corrente de hardware na fase W",
+    "causasProvaveis": [
+      "verificar os dados do motor e, se necessário, recalcular os parâmetros de controle (p0340=3. Como uma alternativa, executar uma identificação de dados do motor (p1910=1, D1960=1)).",
+      "verificar a configuração de circuito do motor (star/delta).",
+      "verificar a carga do motor.",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar os cabos de alimentação em busca de curto-circuitos ou falha do sistema de aterramento.",
+      "verificar o comprimento dos cabos de alimentação."
+    ]
+  },
+  {
+    "codigo": "A30034",
+    "causa": "Unidade de alimentação: Temperatura excessiva interna",
+    "causasProvaveis": [
+      "verificar a temperatura ambiente.",
+      "verificar o ventilador interno da unidade."
+    ]
+  },
+  {
+    "codigo": "F30035",
+    "causa": "Unidade de alimentação: Temperatura excessiva da entrada de ar",
+    "causasProvaveis": [
+      "verificar se o ventilador está funcionando.",
+      "verificar os elementos do ventilador.",
+      "verificar se a temperatura ambiente está na faixa permitida."
+    ]
+  },
+  {
+    "codigo": "F30036",
+    "causa": "Unidade de alimentação: Temperatura excessiva interna",
+    "causasProvaveis": [
+      "verificar se o ventilador está funcionando.",
+      "verificar os elementos do ventilador.",
+      "verificar se a temperatura ambiente está na faixa permitida."
+    ]
+  },
+  {
+    "codigo": "F30037",
+    "causa": "Unidade de alimentação: Temperatura excessiva do retificador",
+    "causasProvaveis": [
+      "verificar se o ventilador está funcionando.",
+      "verificar os elementos do ventilador.",
+      "verificar se a temperatura ambiente está na faixa permitida.",
+      "verificar a carga do motor.",
+      "verificar as fases de alimentação da linha."
+    ]
+  },
+  {
+    "codigo": "A30042",
+    "causa": "Unidade de alimentação: O ventilador atingiu o máximo de horas operacionais",
+    "causasProvaveis": [
+      "substituir o ventilador.",
+      "redefinir o contador de horas operacionais (p0251, p0254)."
+    ]
+  },
+   {
+    "codigo": "A30049",
+    "causa": "Unidade de alimentação: Falha do ventilador interno",
+    "causasProvaveis": [
+      "Verificar o ventilador interno e substituí-lo se necessário."
+    ]
+  },
+  {
+    "codigo": "F30051",
+    "causa": "Unidade de alimentação: Curto circuito detectado no freio de paragem do motor",
+    "causasProvaveis": [
+      "verificar se há um curto-circuito no freio de paragem do motor.",
+      "verificar a conexão e o cabo do freio de paragem do motor."
+    ]
+  },
+  {
+    "codigo": "F30052",
+    "causa": "Erro de dados da EEPROM",
+    "causasProvaveis": [
+      "Substituir o módulo da unidade de alimentação."
+    ]
+  },
+  {
+    "codigo": "A30054",
+    "causa": "Unidade de alimentação: Subtensão ao abrir o freio",
+    "causasProvaveis": [
+      "Verificar a estabilidade e o valor da tensão 24 V."
+    ]
+  },
+  {
+    "codigo": "F30055",
+    "causa": "Unidade de alimentação: Sobrecorrente do chopper de frenagem",
+    "causasProvaveis": [
+      "verificar se o resistor de frenagem apresenta um curto-circuito.",
+      "no caso de um resistor de frenagem externo, verificar se o resistor pode ter sido dimensionado como muito pequeno."
+    ]
+  },
+  {
+    "codigo": "A30057",
+    "causa": "Unidade de alimentação: Assimetria de linha",
+    "causasProvaveis": [
+      "verificar a conexão da fase de alimentação da linha.",
+      "verificar as conexões do cabo do alimentador do motor.",
+      "reduzir a potência para evitar uma falha F30011."
+    ]
+  },
+  {
+    "codigo": "F30059",
+    "causa": "Unidade de alimentação: Falha do ventilador interno",
+    "causasProvaveis": [
+      "Verificar o ventilador interno e substituí-lo se necessário."
+    ]
+  },
+  {
+    "codigo": "A30065",
+    "causa": "Valores de tensão medidos não plausíveis",
+    "causasProvaveis": [
+      "Desativar a medição de tensão (p0247.0=0).",
+      "Desativar a reinicialização rápida com uma medição de tensão (p0247.5=0) e desativar a reinicialização rápida (p1780.11 = 0)."
+    ]
+  },
+  {
+    "codigo": "F30071",
+    "causa": "Nenhum valor real novo é recebido do Módulo de Alimentação",
+    "causasProvaveis": [
+      "Verificar a interface (ajuste e travamento) em relação ao módulo da unidade de alimentação."
+    ]
+  },
+  {
+    "codigo": "F30072",
+    "causa": "Os pontos de ajuste não podem mais ser transferidos para o Módulo de Alimentação",
+    "causasProvaveis": [
+      "Verificar a interface (ajuste e travamento) em relação ao módulo da unidade de alimentação."
+    ]
+  },
+  {
+    "codigo": "F30074",
+    "causa": "Erro de comunicação entre a Unidade de Controle e o Módulo de Alimentação",
+    "causasProvaveis": [
+      "Inserir a Unidade de Controle em um Módulo de Alimentação apropriado e continuar a operação. Se necessário, executar um POWER ON da Unidade de Controle.",
+      "Executar um POWER ON da Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F30075",
+    "causa": "Configuração mal sucedida da unidade de alimentação",
+    "causasProvaveis": [
+      "reconhecer a falha e continuar a operação.",
+      "se a falhar ocorrer novamente, executar um POWER ON (desligar/ligar).",
+      "se necessário, substituir a unidade de alimentação."
+    ]
+  },
+  {
+    "codigo": "F30080",
+    "causa": "Unidade de alimentação: Aumento muito rápido da corrente",
+    "causasProvaveis": [
+      "verificar os dados do motor - se necessário, realizar um comissionamento.",
+      "verificar a configuração de circuito do motor (star/delta)",
+      "Operação de U/f: Aumentar a subida de rampa.",
+      "Operação de U/f: Verificar a atribuição das correntes nominais do motor e da unidade de alimentação.",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar os cabos de alimentação em busca de curto-circuitos ou falha do sistema de aterramento.",
+      "verificar o comprimento dos cabos de alimentação.",
+      "substituir a Unidade de Alimentação."
+    ]
+  },
+  {
+    "codigo": "F30081",
+    "causa": "Unidade de alimentação: Alternar as operações com muito frequência",
+    "causasProvaveis": [
+      "verificar os dados do motor - se necessário, realizar um comissionamento.",
+      "verificar a configuração de circuito do motor (star/delta)",
+      "Operação de U/f: Aumentar a subida de rampa.",
+      "Operação de U/f: Verificar a atribuição das correntes nominais do motor e da unidade de alimentação.",
+      "verificar as conexões do cabo de alimentação.",
+      "verificar os cabos de alimentação em busca de curto-circuitos ou falha do sistema de aterramento.",
+      "verificar o comprimento dos cabos de alimentação.",
+      "substituir a Unidade de Alimentação."
+    ]
+  },
+  {
+    "codigo": "F30105",
+    "causa": "PU: Falha do sensor de valor real",
+    "causasProvaveis": [
+      "Avaliar os parâmetros de diagnóstico.",
+      "Se o canal de valor real estiver incorreto, verificar os componentes e, se necessário, substituí-los."
+    ]
+  },
+  {
+    "codigo": "A30502",
+    "causa": "Unidade de alimentação: Sobretensão da conexão CC",
+    "causasProvaveis": [
+      "verificar a tensão de alimentação do dispositivo (p0210).",
+      "verificar o dimensionamento do reator de linha."
+    ]
+  },
+  {
+    "codigo": "F30600",
+    "causa": "SI P2: PARADA A iniciada",
+    "causasProvaveis": [
+      "marcar \"Torque desligado de modo seguro\" e desmarcar novamente.",
+      "executar um POWER ON (desligar/ligar) em todos os componentes.",
+      "substituir o Módulo de Alimentação envolvido.",
+      "desativar os terminais de STO_A/STO_B no Módulo de Alimentação ou habilitar a função \"STO via terminais no Módulo de Alimentação\".",
+      "verificar o tempo de discrepancia e, se necessário, aumentar o valor (p9650/p9850).",
+      "verificar o terminal de STO no Módulo de Alimentação (problemas de contato).",
+      "executar um diagnóstico para a falha F30611."
+    ]
+  },
+  {
+    "codigo": "F30611",
+    "causa": "SI P2: Defeito em um canal de monitoramento",
+    "causasProvaveis": [
+      "verificar a comparação cruzada dos dados que resultou em uma PARADA F.",
+      "executar um POWER ON (desligar/ligar).",
+      "verificar a fiação de F-DI (problemas de contato).",
+      "PROFIsafe: Remover os problemas de contato/falhas na unidade principal PROFIBUS/controlador PROFINET.",
+      "verificar o tempo de discrepância e, se necessário, aumentar o valor (p9650/p9850).",
+      "verificar as causas da seleção de STO em r9772.",
+      "entrar em contato com o Suporte Técnico.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "N30620",
+    "causa": "SI P2: Torque Desligado de Modo Seguro ativo",
+    "causasProvaveis": [
+      "Não é necessária."
+    ]
+  },
+  {
+    "codigo": "F30625",
+    "causa": "SI P2: Erro de sinal de vida nos dados de segurança",
+    "causasProvaveis": [
+      "marcar \"Torque desligado de modo seguro\" e desmarcar novamente.",
+      "executar um POWER ON (desligar/ligar).",
+      "verificar se há falhas adicionais e, se necessário, realizar um diagnóstico.",
+      "verificar o design do gabinete elétrico e a passagem do cabo em conformidade com EMC"
+    ]
+  },
+  {
+    "codigo": "F30649",
+    "causa": "SI P2: Erro de software interno",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "recomissionar a função \"Segurança Integrada\" e executar um POWER ON.",
+      "entrar em contato com o Suporte Técnico.",
+      "substituir a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F30650",
+    "causa": "SI P2: Teste de aceitação necessário",
+    "causasProvaveis": [
+      "executar uma rotina de comissionamento de segurança.",
+      "executar novamente uma rotina de comissionamento de segurança.",
+      "substituir o cartão de memória ou a Unidade de Controle.",
+      "Usando STARTER, ativar os parâmetros de segurança para a unidade envolvida.",
+      "verificar os parâmetros de segurança no processador 2 e adaptar a checksum de referência (p9899).",
+      "realizar um teste de aceitação e gerar um relatório de aceitação.",
+      "verificar a ativação do controle de frenagem relacionado à segurança nos dois canais de monitoramento (p9602=p9802).",
+      "realizar um diagnóstico para outra falha relacionada à segurança presente."
+    ]
+  },
+  {
+    "codigo": "F30651",
+    "causa": "SI P2: Sincronização mal sucedida com a Unidade de Controle",
+    "causasProvaveis": [
+      "Executar um POWER ON (desligar/ligar)."
+    ]
+  },
+  {
+    "codigo": "F30655",
+    "causa": "SI P2: Alinhar as funções de monitoramento",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "verificar o design do gabinete elétrico e a passagem do cabo em conformidade com EMC"
+    ]
+  },
+  {
+    "codigo": "F30656",
+    "causa": "SI P2: Erro de parâmetro no processador 2",
+    "causasProvaveis": [
+      "recomissionar as funções de segurança.",
+      "substituir o cartão de memória ou a Unidade de Controle.",
+      "ativar o modo de comissionamento de segurança (p0010=95).",
+      "iniciar a função de cópia para parâmetros SI (p9700=D0 hex).",
+      "reconhecer a alteração de dados (p9701=DC hex).",
+      "sair do modo de comissionamento de segurança (p0010=0).",
+      "salvar todos os parâmetros (p0971=1 ou \"copiar RAM para ROM\").",
+      "executar um POWER ON (desligar/ligar) para a Unidade de Controle."
+    ]
+  },
+  {
+    "codigo": "F30659",
+    "causa": "SI P2: Solicitação de gravação para um parâmetro rejeitado",
+    "causasProvaveis": [
+      "verificar se há falhas no alinhamento das funções de segurança (F01655, F30655) e, se necessário, executar o diagnóstico para as falhas envolvidas.",
+      "utilizar uma Unidade de Controle que suporta a função exigida.",
+      "utilizar a unidade de alimentação com o recurso \"STO via terminais no Módulo de Alimentação\"."
+    ]
+  },
+  {
+    "codigo": "F30662",
+    "causa": "Erro nas comunicações internas",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F30664",
+    "causa": "Erro durante a reinicialização",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico."
+    ]
+  },
+  {
+    "codigo": "F30665",
+    "causa": "SI P2: O sistema está com defeito",
+    "causasProvaveis": [
+      "executar um POWER ON (desligar/ligar).",
+      "atualizar o Firmware para uma versão mais recente.",
+      "entrar em contato com o Suporte Técnico.",
+      "desativar os terminais de STO_A/STO_B no Módulo de Alimentação (definir as duas chaves DIP como \"OFF\") ou habilitar a função \"STO via terminais no Módulo de Alimentação\".",
+      "verificar se a Unidade de Controle está conectada ao Módulo de Alimentação.",
+      "desmarcar a função \"STO via terminais no Módulo de Alimentação\"."
+    ]
+  },
+  {
+    "codigo": "A30666",
+    "causa": "SI Motion P2: Sinal do em estado constante (estático) 1 na F-DI para reconhecimento de segurança",
+    "causasProvaveis": [
+      "Definir a entrada digital à prova de falhas (F-DI) como um sinal lógico 0 (p10106)."
+    ]
+  },
+  {
+    "codigo": "F30680",
+    "causa": "SI Motion P2: Erro de checksum das funções de monitoramento de segurança",
+    "causasProvaveis": [
+      "verificar os parâmetros relevantes para a segurança e, se necessário, corrigir.",
+      "definir a checksum de referência como a checksum real.",
+      "executar a função \"Copiar RAM para ROM\".",
+      "executar um POWER ON se os parâmetros de segurança que exigem um POWER ON tiverem sido modificados.",
+      "realizar um teste de aceitação."
+    ]
+  },
+  {
+    "codigo": "F30681",
+    "causa": "SI Motion P1: Valor de parâmetro incorreto",
+    "causasProvaveis": [
+      "Corrigir o valor de parâmetro."
+    ]
+  },
+  {
+    "codigo": "F30682",
+    "causa": "SI Motion P2: Função de monitoramento não suportada",
+    "causasProvaveis": [
+      "Desativar a função de monitoramento envolvida."
+    ]
+  },
+  {
+    "codigo": "F30683",
+    "causa": "SI Motion P2: Habilitação de SLS ausente",
+    "causasProvaveis": [
+      "Habilitar a função \"SLS\" (p9301.0) e executar um POWER ON."
+    ]
+  },
+  {
+    "codigo": "F30692",
+    "causa": "SI Motion P2: Valor de parâmetro não permitido sem codificador",
+    "causasProvaveis": [
+      "Corrigir o parâmetro especificado no valor de falha."
+    ]
+  }
+  
+]

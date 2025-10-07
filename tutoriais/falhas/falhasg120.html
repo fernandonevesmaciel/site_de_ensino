@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falhas G120C</title>
+    <link rel="stylesheet" href="estilos/stylefalhas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="/imagens/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+      <!-- Header -->
+    <header>
+        <div>
+            <button class="botao-menu"><i class="fa-solid fa-bars" id="menu"></i></button>
+        </div>
+         <div class="empresa">
+            <div class="icone"><i class="fa-solid fa-bolt"></i></div>
+            <div>
+                <p id="nomeempresa">TecnoVolt</p>
+            </div>
+    </header>
+
+    <!-- Menu lateral -->
+    <nav class="menu-lateral">
+        <ul>
+            <li><a href="/index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="/tutoriais/tutoriais.html"><i class="fa-solid fa-book"></i> Tutoriais</a></li>
+            <li><a href="#"><i class="fa-solid fa-download"></i> Downloads</a></li>
+            <li><a href="#"><i class="fa-solid fa-chart-diagram"></i> Diagramas</a></li>
+            <li><a href="/calculos/calculos.html"><i class="fa-solid fa-calculator"></i>Calculos</a></li>
+            <li><a href="#"><i class="fa-solid fa-address-card"></i> Contato</a></li>
+            
+        </ul>
+    </nav>
+        <div class="background">
+            
+        </div>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="container">
+        <section class="conteudo">
+            <h1>Consulta de Código de Falha</h1>
+            <p>Digite o número da falha e clique em <strong>"Buscar"</strong> para ver a causa e a solução.</p>
+            <p style="font-size: 0.95em; color:#555;">
+                Digite o código de falha exatamente como aparece no inversor, respeitando letras maiúsculas e zeros.
+                <em>Exemplo: F01681, F01682, A01693, A1696...</em>
+            </p>
+
+            <div class="busca-card">
+                <div class="busca-form">
+                    <input type="text" id="codigoFalhaInput" placeholder="Digite o código aqui...">
+                    <button id="buscarBtn">Buscar</button>
+                </div>
+                <p id="mensagemErro"></p>
+            </div>
+
+            <div id="resultado">
+                <h2>Resultado</h2>
+                <p><strong>Causa:</strong> <span id="causa"></span></p>
+                <p><strong>Soluções:</strong></p>
+                <ul id="causasProvaveis"></ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="scriptfalhas/falhasg120.js"></script>
+    <script src="scriptfalhas/script.js"></script>
+</body>
+
+</html>

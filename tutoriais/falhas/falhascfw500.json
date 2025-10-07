@@ -1,0 +1,384 @@
+[
+  {
+    "codigo": "A0046",
+    "causa": "Alarme de sobrecarga no motor.",
+    "causasProvaveis": [
+      "Ajuste de P0156, P0157 P0158 com valor baixo para o motor utilizado.",
+      "Carga no eixo do motor alta."
+    ]
+  },
+  {
+    "codigo": "A0047",
+    "causa": "Alarme de sobrecarga no módulo de potência com IGBTs.",
+    "causasProvaveis": [
+      "Corrente alta na saída do inversor."
+    ]
+  },
+  {
+    "codigo": "A0050",
+    "causa": "Alarme de temperatura elevada medida no sensor de temperatura (NTC) do módulo de potência.",
+    "causasProvaveis": [
+      "Temperatura ambiente ao redor do inversor alta (>50 C) e corrente de saída elevada.",
+      "Ventilador bloqueado ou defeituoso.",
+      "Dissipador muito sujo, impedindo o fluxo de ar."
+    ]
+  },
+  {
+    "codigo": "A0090",
+    "causa": "Alarme externo via Dix (opcao 'Serm Alarme Externo' em P026x).",
+    "causasProvaveis": [
+      "Fiação nas entradas DI1 a D18 aberta ou com mau contato."
+    ]
+  },
+  {
+    "codigo": "A0128",
+    "causa": "Alarme que indica falha na comunicação serial. Indica que o equipamento parou de receber telegramas seriais válidos por um período maior do que o programado no P0314.",
+    "causasProvaveis": [
+      "Verificar instalação da rede, cabo rompido ou falha/mal contato nas conexões com a rede, aterramento.",
+      "Garantir que o mestre envie telegramas para o equipamento sempre em um tempo menor que o programado no P0314.",
+      "Desabilitar esta função no P0314."
+    ]
+  },
+  {
+    "codigo": "A0133",
+    "causa": "Indica que a interface CAN não possui alimentação entre os pinos 1 e 5 do conector.",
+    "causasProvaveis": [
+      "Medir se existe tensão dentro da faixa permitida entre os pinos 1 e 5 do conector da interface CAN.",
+      "Verificar se os cabos de alimentação não estão trocados ou invertidos.",
+      "Verificar problemas de contato no cabo ou no conector da interface CAN."
+    ]
+  },
+  {
+    "codigo": "A0134",
+    "causa": "Detectado erro de bus off na interface CAN.",
+    "causasProvaveis": [
+      "Verificar curto-circuito nos cabos de transmissão do circuito CAN.",
+      "Verificar se os cabos não estão trocados ou invertidos.",
+      "Verificar se todos os dispositivos da rede utilizam a mesma taxa de comunicação.",
+      "Verificar se resistores de terminação com valores corretos foram colocados somente nos extremos do barramento principal.",
+      "Verificar se a instalação da rede CAN foi feita de maneira adequada."
+    ]
+  },
+  {
+    "codigo": "A0135",
+    "causa": "Controle de erros da comunicação CANopen detectou erro de comunicação utilizando o mecanismo de guarding.",
+    "causasProvaveis": [
+      "Verificar os tempos programados no mestre e no escravo para troca de mensagens.",
+      "Verificar se o mestre está enviando os telegramas de guarding no tempo programado.",
+      "Verificar problemas na comunicação que possam ocasionar perda de telegramas ou atrasos na transmissão."
+    ]
+  },
+  {
+    "codigo": "A0136",
+    "causa": "Alarme que indica que o mestre da rede DeviceNet está em modo Idle.",
+    "causasProvaveis": [
+      "Ajuste a chave que comanda o modo de operação do mestre para execução (Run) ou então o bit correspondente na palavra de configuração do software do mestre."
+    ]
+  },
+  {
+    "codigo": "A0137",
+    "causa": "Alarme que indica que uma ou mais conexões I/O DeviceNet expiraram.",
+    "causasProvaveis": [
+      "Verificar o estado do mestre da rede.",
+      "Verificar instalação da rede, cabo rompido ou falha/mal contato nas conexões com a rede."
+    ]
+  },
+  {
+    "codigo": "A0138",
+    "causa": "Indica que o inversor recebeu o comando do mestre da rede Profibus DP para entrar em modo clear.",
+    "causasProvaveis": [
+      "Verifique o estado do mestre da rede, certificando que este se encontra em modo de execução (RUN)."
+    ]
+  },
+  {
+    "codigo": "A0139",
+    "causa": "Indica interrupção na comunicação entre o mestre da rede Profibus DP e o inversor. A interface de comunicação Profibus DP foi para o estado offline.",
+    "causasProvaveis": [
+      "Verificar se o mestre da rede está configurado corretamente e operando normalmente.",
+      "Verificar curto-circuito ou mau contato nos cabos de comunicação.",
+      "Verificar se os cabos não estão trocados ou invertidos.",
+      "Verificar se resistores de terminação com valores corretos foram colocados somente nos extremos do barramento principal.",
+      "Verificar a instalação da rede de maneira geral-passagem dos cabos, aterramento."
+    ]
+  },
+  {
+    "codigo": "A0140",
+    "causa": "Indica erro no acesso aos dados do módulo de comunicação Profibus DP.",
+    "causasProvaveis": [
+      "Verificar se o módulo Profibus DP está corretamente encaixado.",
+      "Erros de hardware decorrentes, por exemplo, do manuseio ou instalação incorreta do acessório podem causar este erro."
+    ]
+  },
+  {
+    "codigo": "A0163",
+    "causa": "Sinal da entrada analógica Alx em 4 a 20 mA ou 20 a 4 mA está abaixo de 2 mA.",
+    "causasProvaveis": [
+      "Sinal de corrente na entrada analógica Alx interrompido ou nulo.",
+      "Erro na parametrização da entrada analógica Aix."
+    ]
+  },
+  {
+    "codigo": "A0700",
+    "causa": "Sem comunicação com HMI remota, porém não há comando ou referência de velocidade para esta fonte.",
+    "causasProvaveis": [
+      "Verifique se a interface de comunicação com HMI está configurada corretamente no parâmetro P0312.",
+      "Cabo da HMI desconectado."
+    ]
+  },
+  {
+    "codigo": "A0702",
+    "causa": "Ocorre quando um bloco de movimento da SoftPLC (Bloco REF) é ativo e o comando de Habilita Geral do drive não está ativo.",
+    "causasProvaveis": [
+      "Verificar se o comando de Habilita Geral do drive está ativo."
+    ]
+  },
+  {
+    "codigo": "A0704",
+    "causa": "Ocorre quando 2 ou mais blocos de movimento da SoftPLC (Bloco REF) estão habilitados ao mesmo tempo.",
+    "causasProvaveis": [
+      "Verificar lógica do programa do usuário."
+    ]
+  },
+  {
+    "codigo": "A0706",
+    "causa": "Ocorre quando um bloco de movimento da SoftPLC é habilitado e a referência de velocidade não está programada para a SoftPLC.",
+    "causasProvaveis": [
+      "Verificar a programação das referências no modo Local e/ou Remoto (P0221 e P0222)."
+    ]
+  },
+  {
+    "codigo": "A0710",
+    "causa": "Ocorre quando tenta-se fazer o download de Prog. SoftPLC muito extenso (maior que 8 KB) para o inversor.",
+    "causasProvaveis": [
+      "Extensão do Prog. SoftPLC excedeu 8 KBytes."
+    ]
+  },
+  {
+    "codigo": "F0021",
+    "causa": "Falha de subtensão no circuito intermediário.",
+    "causasProvaveis": [
+      "Tensão de alimentação errada, confira se os dados na etiqueta do inversor estão de acordo com a rede de alimentação e o parâmetro P0296.",
+      "Tensão de alimentação muito baixa, ocasionando tensão no barramento CC menor que o valor mínimo.",
+      "Falta de fase na entrada.",
+      "Falha no circuito de pré-carga."
+    ]
+  },
+  {
+    "codigo": "F0022",
+    "causa": "Falha de sobretensão no circuito intermediário.",
+    "causasProvaveis": [
+      "Tensão de alimentação errada, confira se os dados na etiqueta do inversor estão de acordo com a rede de alimentação e o parâmetro P0296.",
+      "Tensão de alimentação muito alta, resultando em uma tensão no barramento CC maior que o valor máximo.",
+      "Inercia de carga muito alta ou rampa de desaceleração muito rápida.",
+      "Ajuste de P0151 ou P0153 muito alto."
+    ]
+  },
+  {
+    "codigo": "F0031",
+    "causa": "Controle principal não consegue estabelecer o link de comunicação com o módulo Plug-in.",
+    "causasProvaveis": [
+      "Módulo Plug-in danificado.",
+      "Módulo Plug-in mal conectado.",
+      "Problema de identificação do módulo Plug-in, consulte P0027."
+    ]
+  },
+  {
+    "codigo": "F0033",
+    "causa": "Falha no ajuste da resistência do estator P0409.",
+    "causasProvaveis": [
+      "Valor da resistência estatórica em P0409 não está de acordo com a potência do inversor.",
+      "Erro nas conexões do motor, desligue a alimentação e verifique a caixa de ligações do motor e as conexões com os bornes do motor.",
+      "Potência do motor muito pequena ou muito grande em relação ao inversor."
+    ]
+  },
+  {
+    "codigo": "F0048",
+    "causa": "Falha de sobrecarga no módulo de potência com IGBTs (3 s em 1.5xInom).",
+    "causasProvaveis": [
+      "Corrente alta na saída do inversor (>2xInom)."
+    ]
+  },
+  {
+    "codigo": "F0051",
+    "causa": "Falha de sobretemperatura medida no sensor de temperatura (NTC) do módulo de potência.",
+    "causasProvaveis": [
+      "Temperatura ambiente ao redor do inversor alta (>50 C) e corrente de saída elevada.",
+      "Ventilador bloqueado ou defeituoso.",
+      "Dissipador muito sujo, impedindo o fluxo de ar."
+    ]
+  },
+  {
+    "codigo": "F0070",
+    "causa": "Sobrecorrente/Curto-circuito na saída, barramento CC ou resistor de frenagem.",
+    "causasProvaveis": [
+      "Curto-circuito entre duas fases do motor.",
+      "Curto-circuito dos cabos de ligação do resistor de frenagem reostática.",
+      "Modulo de IGBTs em curto ou danificado.",
+      "Partida com rampa de aceleração muito curta.",
+      "Partida com motor girando sem a função Flying Start."
+    ]
+  },
+  {
+    "codigo": "F0072",
+    "causa": "Falha de Sobrecarga no motor (60 s em 1,5xlnom).",
+    "causasProvaveis": [
+      "Ajuste de P0156, P0157 e P0158 muito baixo em relação à corrente de operação do motor.",
+      "Carga no eixo do motor muito alta."
+    ]
+  },
+  {
+    "codigo": "F0074",
+    "causa": "Falha de sobrecorrente para o terra.",
+    "causasProvaveis": [
+      "Curto para o terra em uma ou mais fases de saida.",
+      "Capacitância dos cabos do motor elevada ocasionando picos de corrente na saída."
+    ]
+  },
+  {
+    "codigo": "F0076",
+    "causa": "Esta falha indica que o motor está com falta de fase, desconectado ou com correntes de fase desequilibradas.",
+    "causasProvaveis": [
+      "Erro de ligação ou conexões do motor.",
+      "Perda de conexão do motor com o drive ou fio partido."
+    ]
+  },
+  {
+    "codigo": "F0078",
+    "causa": "Falha de sobretemperatura medida no sensor de temperatura (Triplo PTC) do motor via entrada analógica Alx ou entrada digital Dix.",
+    "causasProvaveis": [
+      "Carga no eixo do motor muito alta.",
+      "Ciclo de carga muito elevado (grande número de partidas e paradas por minuto).",
+      "Temperatura ambiente alta ao redor do motor.",
+      "Mau contato ou curto-circuito.",
+      "Termistor do motor não instalado.",
+      "Eixo do motor travado."
+    ]
+  },
+  {
+    "codigo": "F0080",
+    "causa": "Falha na CPU (Watchdog).",
+    "causasProvaveis": [
+      "Ruido elétrico.",
+      "Falha no firmware do inversor."
+    ]
+  },
+  {
+    "codigo": "F0084",
+    "causa": "Falha de autodiagnose.",
+    "causasProvaveis": [
+      "Mau contato nas conexões entre o controle principal e o módulo de potência.",
+      "Hardware não compatível com a versão de firmware.",
+      "Defeito nos circuitos internos do inversor."
+    ]
+  },
+  {
+    "codigo": "F0091",
+    "causa": "Falha externa via Dix (opcao 'Sem Falha Externa' em P026x).",
+    "causasProvaveis": [
+      "Fiação nas entradas DI1 a D18 aberta ou com mau contato."
+    ]
+  },
+  {
+    "codigo": "F0151",
+    "causa": "Versão de Sw Principal Incompatível.",
+    "causasProvaveis": [
+      "Memória virgem no módulo Plug-in (1a energização).",
+      "Falha no backup de dados durante a desenergização (power-down)."
+    ]
+  },
+  {
+    "codigo": "F0182",
+    "causa": "Falha Realimentação de Pulsos.",
+    "causasProvaveis": [
+      "Falha na identificação de hardware, compare P0295 e P0296 com a etiqueta de identificação do inversor.",
+      "Falha no circuito interno de realimentação de pulso do inversor."
+    ]
+  },
+  {
+    "codigo": "F0228",
+    "causa": "Timeout na Recepção de Telegramas.",
+    "causasProvaveis": [
+      "Verificar instalação da rede, cabo rompido ou falha/mal contato nas conexões com a rede, aterramento.",
+      "Garantir que o mestre envie telegramas para o equipamento sempre em um tempo menor que o programado no P0314.",
+      "Desabilitar esta função no P0314."
+    ]
+  },
+  {
+    "codigo": "F0233",
+    "causa": "Sem Alimentação na Interface CAN.",
+    "causasProvaveis": [
+      "Medir se existe tensão dentro da faixa permitida entre os pinos 1 e 5 do conector da interface CAN.",
+      "Verificar se os cabos de alimentação não estão trocados ou invertidos.",
+      "Verificar problemas de contato no cabo ou no conector da Interface CAN."
+    ]
+  },
+  {
+    "codigo": "F0234",
+    "causa": "Bus Off.",
+    "causasProvaveis": [
+      "Verificar curto-circuito nos cabos de transmissão do circuito CAN.",
+      "Verificar se os cabos não estão trocados ou invertidos.",
+      "Verificar se todos os dispositivos da rede utilizam a mesma taxa de comunicação.",
+      "Verificar se os resistores de terminação estão com valores corretos, e foram colocados somente nos extremos do barramento principal.",
+      "Verificar se a instalação da rede CAN foi feita de maneira adequada."
+    ]
+  },
+  {
+    "codigo": "F0235",
+    "causa": "Node Guarding/Heartbeat.",
+    "causasProvaveis": [
+      "Verificar os tempos programados no mestre e no escravo para troca de mensagens.",
+      "Verificar se o mestre está enviando os telegramas de guarding no tempo programado.",
+      "Verificar problemas na comunicação que possam ocasionar perda de telegramas ou atrasos na transmissão."
+    ]
+  },
+  {
+    "codigo": "F0236",
+    "causa": "Mestre em Idle.",
+    "causasProvaveis": [
+      "Ajuste a chave que comanda o modo de operação do mestre para execução (run) ou então o bit correspondente na palavra de configuração do software do mestre."
+    ]
+  },
+  {
+    "codigo": "F0237",
+    "causa": "Timeout na Conexão DeviceNet.",
+    "causasProvaveis": [
+      "Verificar o estado do mestre da rede.",
+      "Verificar instalação da rede, cabo rompido ou falha/mal contato nas conexões com a rede."
+    ]
+  },
+  {
+    "codigo": "F0238",
+    "causa": "Interface Profibus DP em Modo Clear.",
+    "causasProvaveis": [
+      "Verifique o estado do mestre da rede, certificando que este se encontra em modo de execução (RUN)."
+    ]
+  },
+  {
+    "codigo": "F0239",
+    "causa": "Interface Profibus DP Offline.",
+    "causasProvaveis": [
+      "Verificar se o mestre da rede está configurado corretamente e operando normalmente.",
+      "Verificar curto-circuito ou mau contato nos cabos de comunicação.",
+      "Verificar se os cabos não estão trocados ou invertidos.",
+      "Verificar se resistores de terminação com valores corretos foram colocados somente nos extremos do barramento principal.",
+      "Verificar a instalação da rede de maneira geral-passagem dos cabos, aterramento."
+    ]
+  },
+  {
+    "codigo": "F0240",
+    "causa": "Falha de Acesso ao Módulo Profibus DP.",
+    "causasProvaveis": [
+      "Verificar se o módulo Profibus DP está corretamente encaixado.",
+      "Erros de hardware decorrentes, por exemplo, do manuseio ou instalação incorreta do acessório podem causar esta falha."
+    ]
+  },
+  {
+    "codigo": "F0700",
+    "causa": "Falha na Comunicação com HMI Remota.",
+    "causasProvaveis": [
+      "Verifique se a interface de comunicação com HMI está configurada corretamente no parâmetro P0312.",
+      "Cabo da HMI desconectado."
+    ]
+  }
+]
