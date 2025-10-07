@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Caminho para o arquivo JSON.
     // Ajuste se a estrutura de pastas for diferente.
-    const urlJSON = 'falhasCFW500.json';
+   const urlJSON = './falhascfw500.json';
 
     // Carrega os dados do arquivo JSON
     fetch(urlJSON)

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Caminho para o arquivo JSON.
     // Ajuste se a estrutura de pastas for diferente.
-    const urlJSON = 'falhasg120c.json';
+    const urlJSON = './falhasg120c.json';
 
     // Carrega os dados do arquivo JSON
     fetch(urlJSON)
