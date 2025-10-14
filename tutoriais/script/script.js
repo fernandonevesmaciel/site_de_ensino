@@ -426,7 +426,7 @@ function carregar(){
     )
 
     criarLinha(
-        "Liga/desliga potênciometro análogico",
+        "Liga/desl. potênciometro análogico",
         ` <h2> Programando liga e desliga com botões de pulso e potênciometro análogico</h2> <br><br>
             
             <img src="../imagens/liga-desliga com potênciometro.jpg" alt="inversor com botões de pulso" class="imagemProgramacao"> <br>

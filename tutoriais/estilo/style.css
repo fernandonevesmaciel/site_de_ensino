@@ -493,7 +493,20 @@ margin-top: 10px;
 }
 
 }
+/* Estilos para telas pequenas */
+@media screen and (max-width: 400px) {
+    .linha {
+        /* Reduz o espaçamento nas laterais para dar mais espaço ao conteúdo */
+        padding: 12px 10px;
+    }
 
+    .titulo {
+        /* Reduz um pouco a fonte para ajudar o texto a caber melhor */
+        font-size: 0.95rem; 
+        /* Reduz a margem entre o texto e o botão */
+        margin-right: 8px;
+    }
+}
 @keyframes slideIn {
   from {
     transform: translateX(-100%);
