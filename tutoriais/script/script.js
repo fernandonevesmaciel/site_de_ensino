@@ -832,6 +832,135 @@ function carregar(){
         
     )
 
+    criarLinha(
+        "Avanço e retorno por botão de pulso", `
+         <h2> Programando liga e desliga com botões de pulso e potênciometro digital</h2> <br><br>
+            
+            <img src="../imagens/ligação dois botões de pulso.png" alt="inversor com botões de pulso" class="imagemProgramacao"> <br>
+
+            <p class="textoTutorial">
+                Com os botões de pulso ligados o contato aberto no bornes 1 = dl1 para avanço e outro contato aberto no borne 3 = dl2 para retorno, ou seja quando acionar o contato 1 irá rodar o motor em um sentido de giro e quando acionar o outro contato aberto irá rodar em outro sentido de giro. <br><br>
+
+                Parâmetros de programação para o AVANÇO/RETORNO com velocidade na HMI do inversor:<br><br>
+
+                   <table>
+            <thead>
+                <tr>
+                    <th>Parâmetros</th>
+                    <th>Valor usado</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>P000</td>
+                    <td>5</td>
+                    <td>Senha de acesso para modificar parâmetros</td>
+                </tr>
+                <tr>
+                    <td>P204</td>
+                    <td>5</td>
+                    <td>Resetar o inversor de Fábrica</td>
+                </tr>
+                <tr>
+                    <td>P100</td>
+                    <td>1.0</td>
+                    <td>Rampa de aceleração</td>
+                </tr>
+                <tr>
+                    <td>P101</td>
+                    <td>0.5</td>
+                    <td>Rampa de desaceleração</td>
+                </tr>
+                 <tr>
+                    <td>P133</td>
+                    <td>0.0</td>
+                    <td>Frequência minima</td>
+                </tr>
+                 <tr>
+                    <td>P134</td>
+                    <td>60.0</td>
+                    <td>Frequência máxima</td>
+                </tr>
+                <tr>
+                    <td>P156</td>
+                    <td>1.8</td>
+                    <td>Corrente 1.1x a nominal do motor</td>
+                    
+                </tr>
+                 <tr>
+                    <td>P157</td>
+                    <td>1.7</td>
+                    <td>Corrente 1x a nominal do motor</td>
+                </tr>
+                 <tr>
+                    <td>P158</td>
+                    <td>1.4</td>
+                    <td>Corrente 0.8x a nominal do motor</td>
+                </tr>
+                 
+                 <tr>
+                    <td>P220</td>
+                    <td> 1 </td>
+                    <td>Seleciona acesso Remoto ou Local</td>
+                </tr>
+                 <tr>
+                    <td>P222</td>
+                    <td> 0 </td>
+                    <td>Irá controlar a velocidade pelas teclas do inversor</td>
+                </tr>
+                 <tr>
+                    <td>P226</td>
+                    <td> 4 </td>
+                    <td>Irá controlar o sentido de giro do inversor pelos botões de pulso</td>
+                </tr>
+
+                <tr>
+                    <td>P263</td>
+                    <td> 4 </td>
+                    <td>Avanço</td>
+                </tr>
+
+                <tr>
+                    <td>P264</td>
+                    <td> 5 </td>
+                    <td>Retorno</td>
+                </tr>
+
+                 <tr>
+                    <td>P271</td>
+                    <td> 8 </td>
+                    <td>Sinal das entradas digitais</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        `,`<p class="textoTutorial">
+            Comentario de cada parâmetro e o porque foi usado cada valor nele:<br><br>
+            <strong>P000</strong> = conforme explicado na própria tabela esse parâmetro quando já programado, serve para proteger a alteração dos parâmetros só podendo ter acesso aos parâmetros quando digitado corretamente a senha.(essa senha pode ser alterada ou adicionada no parâmetro P200.)<br>
+            <strong>P204</strong> = Usado nessa operação para resetar de fábrica as configurações do inversor para que não tenha conflito com as programações já existentes no inversor com as novas a serem feitas.<br>
+            <strong>P100</strong> = Rampa de aceleração, esse parâmetro serve para que regule o tempo que o motor irá atingir sua velocidade máxima em Hz conforme estipulado no P134 e por sua referência de velocidade sendo que pode ser manual via HMI ou por potênciometro digital ou análogico.<br>
+            <strong>P101</strong> = Rampa de desaceleração, esse parâmetro serve para fazer a desacelaração do motor. Sendo aconselhado para motores que tenha um risco que precise parar de forma rápida deixa-lo o menor tempo possível que não atrapalhe na performanace do motor.<br>
+            <strong>P133</strong> = Velocidade mínima em HZ, quando o inversor ligado em operação ele irá partir da velocidade mínima chegando até a máxima ou caso por um potênciometro ou pela tela HMI do inversor irá diminuir até chegar nessa velocidade que foi estipulada nesse parâmetro.<br>
+            <strong>P134</strong> = Velocidade máxima em Hz, quando inversor ligado em operação ele irá chegar até a velocidade estipulada por esse parâmetro sendo controlada por potênciometro ou pela tela HMI do inversor.<br>
+            <strong>P156</strong> = Corrente 1.1x a nominal do motor, conforme conferido na placa de informação presente no motor para que tenha uma segurança maior para o motor e evitar a queima do mesmo por sobrecarga, a fabricante do inversor aconselha a deixar esse parâmetro em 1.1 vezes a corrente nominal encontrada na placa do motor sendo quando ultrapassar essa corrente o inversor entrará em falha geralmente F0070 (sobrecorrente/curto-circuito) ou F0072 (sobrecarga do motor).<br>
+            <strong>P157</strong> = Corrente 1.0x a nominal do motor, ou seja a informação presente na placa do motor informando ao inversor que o motor está rodando com uma corrente de sobrecarga de 50%.<br>
+            <strong>P158</strong> = Corrente 0.8x a nominal do motor, ou seja a informação presente na placa do motor vezes 0.8 para informar ao inversor que o motor está rodando com uma corrente de sobrecarga de 5%.<br>
+            <strong>P220</strong> = Seleção de LOC/REM, inserido o valor 1 sempre remoto para o inversor ligue e realize outras funções de forma remoto.<br>
+            <strong>P222</strong> = Seleção de referência de velocidade, inserindo o valor 0 no parâmetro nessa operação iremos controlar a velocidade do inversor de manual nas próprias teclas do inversor.<br>
+            <strong>P226</strong> = seleção do sentido de giro modo remoto, esse parâmetro serve para definirmos em qual sentido o motor irá rodar de forma remoto, sendo que colocado esse parâmetro em 4, as entradas digitais onde está os botões de pulso que irá controlar qual sentido de giro o motor irá rodar<br>
+            <strong>P263</strong> = Parâmetro onde defino a função da entrada digital Dl1 do inversor. Inserido 4 para definir como Avanço ou seja para o motor rodar em sentido horário. obs:. caso não rode no sentido desejado inverta os cabos da saida do inversor.<br>
+            <strong>P264</strong> = Parâmetro onde defino a função da entrada digital Dl2 do inversor. Inserido 5 para definir como Retorno ou seja para o motor rodar em sentido anti-horário.<br>
+            <strong>P271</strong> = Parâmetro onde defino se as entradas digital serão acionadas de forma PNP (acionada com 24v) NPN (acionada com 0V). Inserido 8 para que todas as entradas digitais sejam acionadas de forma PNP.<br>
+
+        </p>
+        `
+
+        
+    )
+
 }
 
 carregar();

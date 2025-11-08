@@ -172,6 +172,53 @@ function carregar(){
             `
         );
 
+          criarLinha(
+            "Avanço/Retorno PNP e reconhece falhas",
+            `
+            <p> IMAGEM DO INVERSOR G120C COM SEUS BORNES E COMPONENTES.<br><br>
+            </p>
+
+            <img src="../imagens/inversor g120.png" alt="inversor g120c" class="imagemProgramacao"> <br>
+           
+            <table>
+        <thead>
+            <tr>
+                <th>Parâmetros</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>P10</td>
+                <td>1 =  para colocar em comissionameto</td>
+            </tr>
+            <tr>
+                <td>P305</td>
+                <td>Corrente do motor</td>
+            </tr>
+             <tr>
+                <td>P307</td>
+                <td>Potência do motor</td>
+            </tr>
+             <tr>
+                <td>P311</td>
+                <td>Velocidade em RPM do motor</td>
+            </tr>
+             <tr>
+                <td>P1900</td>
+                <td>2 = identificar o motor</td>
+            </tr>
+             <tr>
+                <td>P3900</td>
+                <td>0 = Salvar e completar o comissionamento</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Com base nesses parâmetros acesse o manual.</p>
+            `
+        );
+
 
 }
 
@@ -200,26 +247,6 @@ function criarLinha(titulo, conteudoHtml, textoExplicativoHtml) {
     conteudoInterno.innerHTML = conteudoHtml;
     conteudoDiv.appendChild(conteudoInterno);
 
-    // 🔥 Cria o botão Mostrar Explicação
-    const botaoExplicacao = document.createElement('button');
-    botaoExplicacao.innerText = 'Mostrar Explicação';
-    botaoExplicacao.classList.add('botao-explicacao');
-    botaoExplicacao.style.marginTop = '10px';
-
-    const explicacaoDiv = document.createElement('div');
-    explicacaoDiv.classList.add('explicacao');
-    explicacaoDiv.style.display = 'none';
-    explicacaoDiv.innerHTML = textoExplicativoHtml;
-
-    botaoExplicacao.addEventListener('click', () => {
-        if (explicacaoDiv.style.display === 'none') {
-            explicacaoDiv.style.display = 'block';
-            botaoExplicacao.innerText = 'Ocultar Explicação';
-        } else {
-            explicacaoDiv.style.display = 'none';
-            botaoExplicacao.innerText = 'Mostrar Explicação';
-        }
-    });
 
     // 🔥 Cria botão de fechar janela principal
     const botaoFechar = document.createElement('button');
@@ -246,8 +273,6 @@ function criarLinha(titulo, conteudoHtml, textoExplicativoHtml) {
     // Montagem dos elementos
     linha.appendChild(texto);
     linha.appendChild(botao);
-    conteudoDiv.appendChild(botaoExplicacao);
-    conteudoDiv.appendChild(explicacaoDiv);
     conteudoDiv.appendChild(botaoFechar);
     linha.appendChild(conteudoDiv);
 
@@ -274,26 +299,6 @@ function criarLinha2(titulo, conteudoHtml, textoExplicativoHtml) {
     conteudoInterno.innerHTML = conteudoHtml;
     conteudoDiv.appendChild(conteudoInterno);
 
-    // 🔥 Cria o botão Mostrar Explicação
-    const botaoExplicacao = document.createElement('button');
-    botaoExplicacao.innerText = 'Mostrar Explicação';
-    botaoExplicacao.classList.add('botao-explicacao');
-    botaoExplicacao.style.marginTop = '10px';
-
-    const explicacaoDiv = document.createElement('div');
-    explicacaoDiv.classList.add('explicacao');
-    explicacaoDiv.style.display = 'none';
-    explicacaoDiv.innerHTML = textoExplicativoHtml;
-
-    botaoExplicacao.addEventListener('click', () => {
-        if (explicacaoDiv.style.display === 'none') {
-            explicacaoDiv.style.display = 'block';
-            botaoExplicacao.innerText = 'Ocultar Explicação';
-        } else {
-            explicacaoDiv.style.display = 'none';
-            botaoExplicacao.innerText = 'Mostrar Explicação';
-        }
-    });
 
     // 🔥 Cria botão de fechar janela principal
     const botaoFechar = document.createElement('button');
@@ -320,8 +325,6 @@ function criarLinha2(titulo, conteudoHtml, textoExplicativoHtml) {
     // Montagem dos elementos
     linha.appendChild(texto);
     linha.appendChild(botao);
-    conteudoDiv.appendChild(botaoExplicacao);
-    conteudoDiv.appendChild(explicacaoDiv);
     conteudoDiv.appendChild(botaoFechar);
     linha.appendChild(conteudoDiv);
 
